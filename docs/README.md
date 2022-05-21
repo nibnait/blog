@@ -5,12 +5,12 @@ actionText: 进入博客 →
 actionLink: /md/guide.md
 features:
 - title: 沉淀
-  details: 留下文档
+  details: 读书笔记、算法套路、开发轶事
 - title: 分享
-  details: 分享出来
+  details: 1 + 1 > 2
 - title: 变得更强
   details: 一起变得更强  
-footer: 沪ICP备2022014340号 | GPL Licensed | Copyright © 202x NibNait，All rights reserved.
+footer: 沪ICP备2022014340号 | GPL Licensed | Copyright © 2022 NibNait，All rights reserved.
 ---
 
 ---

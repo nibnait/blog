@@ -85,16 +85,16 @@ module.exports = {
                         text: '我的mbp',
                         items: [
                             {
-                                text: '好用的软件',
+                                text: '我的 MacBook Pro',
                                 link: '/md/mbp/mbp.md'
                             },
                             {
                                 text: '好用的网站',
-                                link: '/md/mbp/website/web.md'
+                                link: '/md/mbp/website/1-web.md'
                             },
                             {
                                 text: '值得 star 的 github 仓库',
-                                link: '/md/mbp/website/web.md'
+                                link: '/md/mbp/website/2-github-star.md'
                             },
                             {
                                 text: '各种教程',
@@ -112,10 +112,10 @@ module.exports = {
                     }
                 ],
                 sidebar: {
-                    "/md/algorithm/": sidebarAlgorithm(),
-                    "/md/design-pattern/": sideBarDesignPattern(),
-                    "/md/mbp/": sideBarMbp(),
-                    "/md/netty/": sideBarNetty()
+                    "/md/algorithm/": algorithmCatalog(),
+                    "/md/design-pattern/": designPatternCatalog(),
+                    "/md/mbp/": mbpCatalog(),
+                    "/md/netty/": nettyCatalog()
                 }
             }
         }
@@ -123,12 +123,12 @@ module.exports = {
 };
 
 // 算法
-function sidebarAlgorithm() {
+function algorithmCatalog() {
     return [
         {
             title: "算法",
             collapsable: false,
-            sidebarDepth: 0,
+            sidebarDepth: 1,
             children: [
                 "alg.md"
             ]
@@ -137,12 +137,12 @@ function sidebarAlgorithm() {
 }
 
 // 设计模式
-function sideBarDesignPattern() {
+function designPatternCatalog() {
     return [
         {
             title: "设计模式",
             collapsable: false,
-            sidebarDepth: 0,
+            sidebarDepth: 1,
             children: [
                 "despar.md"
             ]
@@ -151,22 +151,28 @@ function sideBarDesignPattern() {
 }
 
 // mbp
-function sideBarMbp() {
+function mbpCatalog() {
     return [
         {
             title: "我的mbp",
             collapsable: false,
-            sidebarDepth: 1,
+            sidebarDepth: 2,
             children: [
-                "mbp.md"
+                "mbp.md",
+                "mbp-code-rain.md",
+                "mbp-common-cmd.md",
+                "uml.md",
+                "win.md"
             ]
         },
         {
-            title: "好用的软件",
+            title: "我的软件配置存档",
             collapsable: false,
             sidebarDepth: 1,
             children: [
-                "software/01终端.md"
+                "software/01-terminal.md",
+                "software/02-idea.md",
+                "software/03-vscode.md"
             ]
         },
         {
@@ -174,15 +180,8 @@ function sideBarMbp() {
             collapsable: false,
             sidebarDepth: 1,
             children: [
-                "website/web.md"
-            ]
-        },
-        {
-            title: '值得 star 的 github 仓库',
-            collapsable: false,
-            sidebarDepth: 1,
-            children: [
-                "website/web.md"
+                "website/1-web.md",
+                "website/2-github-star.md"
             ]
         },
         {
@@ -190,16 +189,17 @@ function sideBarMbp() {
             collapsable: false,
             sidebarDepth: 1,
             children: [
-                "tutorial/tuto.md",
-                "tutorial/220521-vuepress.md",
-                "tutorial/220521-ssh-port.md"
+                "tutorial/01-ssh-port.md",
+                "tutorial/02-vuepress.md",
+                "tutorial/03-cloudreve.md",
+                "tutorial/04-jar-to-maven.md"
             ]
         }
     ]
 }
 
 // netty
-function sideBarNetty() {
+function nettyCatalog() {
     return [
         {
             title: "基础入门篇",
