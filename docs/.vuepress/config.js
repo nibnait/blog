@@ -26,13 +26,6 @@ module.exports = {
         logo: "/logo.png",
         editLinks: true,
         smoothScroll: true,
-        nav: [
-            {text: '我的mbp', link: '/md/mbp'},
-            {text: '算法', link: '/md/algorithm'},
-            {text: '设计模式', link: '/md/design-parttern'},
-            {text: 'Netty', link: '/md/netty'},
-            {text: 'Github', link: 'https://github.com/nibnait'},
-        ],
         sidebar: "auto",
         sidebarDepth: 0,
         locales:  {
@@ -47,26 +40,22 @@ module.exports = {
                         link: '/md/guide.md'
                     },
                     {
-                        text: '设计模式',
-                        link: '/md/design-pattern/despar.md'
-                    },
-                    {
                         text: '算法',
                         items: [
                             {
                                 text: '剑指Offer',
-                                link: '/md/algorithm/alg.md'
+                                link: '/md/algorithm/algorithm.md'
                             },
                             {
                                 text: 'leetcode',
                                 items: [
                                     {
                                         text: '动态规划',
-                                        link: '/md/algorithm/alg.md'
+                                        link: '/md/algorithm/algorithm.md'
                                     },
                                     {
                                         text: 'xx',
-                                        link: '/md/algorithm/alg.md'
+                                        link: '/md/algorithm/algorithm.md'
                                     }
                                 ]
                             },
@@ -75,18 +64,30 @@ module.exports = {
                                 items: [
                                     {
                                         text: '1',
-                                        link: '/md/algorithm/alg.md'
+                                        link: '/md/algorithm/algorithm.md'
                                     }
                                 ]
                             }
                         ]
                     },
                     {
+                        text: '设计模式',
+                        link: '/md/design-pattern/design-pattern.md'
+                    },
+                    {
+                        text: 'Java',
+                        link: '/md/java/java.md'
+                    },
+                    {
+                        text: 'Linux',
+                        link: '/md/linux/linux.md'
+                    },
+                    {
                         text: '我的mbp',
                         items: [
                             {
                                 text: '我的 MacBook Pro',
-                                link: '/md/mbp/mbp.md'
+                                link: '/md/mbp/my-mac.md'
                             },
                             {
                                 text: '好用的网站',
@@ -98,9 +99,13 @@ module.exports = {
                             },
                             {
                                 text: '各种教程',
-                                link: '/md/mbp/tutorial/tuto.md'
+                                link: '/md/mbp/tutorial/tutorial.md'
                             }
                         ]
+                    },
+                    {
+                        text: 'Netty',
+                        link: '/md/netty/netty.md'
                     },
                     {
                         text: '关于',
@@ -114,6 +119,8 @@ module.exports = {
                 sidebar: {
                     "/md/algorithm/": algorithmCatalog(),
                     "/md/design-pattern/": designPatternCatalog(),
+                    "/md/java/": javaCatalog(),
+                    "/md/linux/": linuxCatalog(),
                     "/md/mbp/": mbpCatalog(),
                     "/md/netty/": nettyCatalog()
                 }
@@ -130,7 +137,7 @@ function algorithmCatalog() {
             collapsable: false,
             sidebarDepth: 1,
             children: [
-                "alg.md"
+                "algorithm.md"
             ]
         }
     ]
@@ -144,7 +151,35 @@ function designPatternCatalog() {
             collapsable: false,
             sidebarDepth: 1,
             children: [
-                "despar.md"
+                "design-pattern.md"
+            ]
+        }
+    ]
+}
+
+// Java
+function javaCatalog() {
+    return [
+        {
+            title: "基础篇",
+            collapsable: false,
+            sidebarDepth: 1,
+            children: [
+                "java.md"
+            ]
+        }
+    ]
+}
+
+// Linux
+function linuxCatalog() {
+    return [
+        {
+            title: "Linux",
+            collapsable: false,
+            sidebarDepth: 1,
+            children: [
+                "linux.md"
             ]
         }
     ]
@@ -158,11 +193,21 @@ function mbpCatalog() {
             collapsable: false,
             sidebarDepth: 2,
             children: [
-                "mbp.md",
+                "my-mac.md",
                 "mbp-code-rain.md",
                 "mbp-common-cmd.md",
-                "uml.md",
-                "win.md"
+                "my-win.md",
+                "my-centos.md"
+            ]
+        },
+        {
+            title: "一些规范",
+            collapsable: false,
+            sidebarDepth: 1,
+            children: [
+                "standard/common-git.md",
+                "standard/git-standard.md",
+                "standard/uml.md"
             ]
         },
         {
@@ -192,13 +237,14 @@ function mbpCatalog() {
                 "tutorial/01-ssh-port.md",
                 "tutorial/02-vuepress.md",
                 "tutorial/03-cloudreve.md",
-                "tutorial/04-jar-to-maven.md"
+                "tutorial/04-jar-to-maven.md",
+                "tutorial/05-mysql-password.md"
             ]
         }
     ]
 }
 
-// netty
+// Netty
 function nettyCatalog() {
     return [
         {

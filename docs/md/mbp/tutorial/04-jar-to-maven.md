@@ -1,7 +1,7 @@
 ---
-title: 发布自己的项目 JAR 到 MAVEN 中央仓库
+title: 发布自己项目 JAR 到 MAVEN 中央仓库
 ---
-# 发布自己的项目 JAR 到 MAVEN 中央仓库
+# 发布自己项目 JAR 到 MAVEN 中央仓库
 
 我的 issues: 
 [https://issues.sonatype.org/browse/OSSRH-79805?filter=-2](https://issues.sonatype.org/browse/OSSRH-79805?filter=-2)
