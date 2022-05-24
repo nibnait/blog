@@ -1,5 +1,8 @@
 ---
-title: 03 - vscode
+layout: post
+category: 软件配置
+title: 01 - vscode
+tag: [software, vscode]
 ---
 # 03 - vscode
 

@@ -2,7 +2,7 @@ module.exports = {
     dest: ".site",
     base: "/",
     markdown: {
-        lineNumbers: false,
+        lineNumbers: true,
         externalLinks: {
             target: '_blank', rel: 'noopener noreferrer'
         }
@@ -76,7 +76,47 @@ module.exports = {
                     },
                     {
                         text: 'Java',
-                        link: '/md/java/java.md'
+                        items: [
+                            {
+                                text: 'Java',
+                                items: [
+                                    {
+                                        text: 'Java 基础',
+                                        link: '/md/java/basic/basic.md'
+                                    },
+                                    {
+                                        text: '并发编程',
+                                        link: '/md/java/concurrent/concurrent.md'
+                                    },
+                                    {
+                                        text: 'JVM 虚拟机',
+                                        link: '/md/java/jvm/jvm.md'
+                                    }
+                                ]
+                            },
+                            {
+                                text: 'Netty',
+                                items: [
+                                    {
+                                        text: '入门',
+                                        link: '/md/netty/netty.md'
+                                    }
+                                ]
+                            },
+                            {
+                                text: 'Spring',
+                                items: [
+                                    {
+                                        text: 'Spring',
+                                        link: '/md/java/spring/spring.md'
+                                    },
+                                    {
+                                        text: 'SpringBoot',
+                                        link: '/md/java/spring/spring.md'
+                                    }
+                                ]
+                            }
+                        ]
                     },
                     {
                         text: 'Linux',
@@ -104,8 +144,8 @@ module.exports = {
                         ]
                     },
                     {
-                        text: 'Netty',
-                        link: '/md/netty/netty.md'
+                        text: '随笔',
+                        link: '/md/essay/2205.md'
                     },
                     {
                         text: '关于',
@@ -119,6 +159,7 @@ module.exports = {
                 sidebar: {
                     "/md/algorithm/": algorithmCatalog(),
                     "/md/design-pattern/": designPatternCatalog(),
+                    "/md/essay/": essayCatalog(),
                     "/md/java/": javaCatalog(),
                     "/md/linux/": linuxCatalog(),
                     "/md/mbp/": mbpCatalog(),
@@ -157,15 +198,53 @@ function designPatternCatalog() {
     ]
 }
 
+// 随笔
+function essayCatalog() {
+    return [
+        {
+            title: "随笔",
+            collapsable: false,
+            sidebarDepth: 1,
+            children: [
+                "2205.md"
+            ]
+        }
+    ]
+}
+
 // Java
 function javaCatalog() {
     return [
         {
-            title: "基础篇",
+            title: "Java 基础",
             collapsable: false,
             sidebarDepth: 1,
             children: [
-                "java.md"
+                "basic/basic.md"
+            ]
+        },
+        {
+            title: "并发编程",
+            collapsable: false,
+            sidebarDepth: 1,
+            children: [
+                "concurrent/concurrent.md"
+            ]
+        },
+        {
+            title: "JVM 虚拟机",
+            collapsable: false,
+            sidebarDepth: 1,
+            children: [
+                "jvm/jvm.md"
+            ]
+        },
+        {
+            title: "Spring",
+            collapsable: false,
+            sidebarDepth: 1,
+            children: [
+                "spring/spring.md"
             ]
         }
     ]
@@ -179,7 +258,8 @@ function linuxCatalog() {
             collapsable: false,
             sidebarDepth: 1,
             children: [
-                "linux.md"
+                "linux.md",
+                "my-centos.md"
             ]
         }
     ]
@@ -196,8 +276,7 @@ function mbpCatalog() {
                 "my-mac.md",
                 "mbp-code-rain.md",
                 "mbp-common-cmd.md",
-                "my-win.md",
-                "my-centos.md"
+                "my-win.md"
             ]
         },
         {
@@ -234,11 +313,10 @@ function mbpCatalog() {
             collapsable: false,
             sidebarDepth: 1,
             children: [
-                "tutorial/01-ssh-port.md",
-                "tutorial/02-vuepress.md",
-                "tutorial/03-cloudreve.md",
-                "tutorial/04-jar-to-maven.md",
-                "tutorial/05-mysql-password.md"
+                "tutorial/01-vuepress.md",
+                "tutorial/02-cloudreve.md",
+                "tutorial/03-jar-to-maven.md",
+                "tutorial/04-mysql-password.md"
             ]
         }
     ]

@@ -1,5 +1,8 @@
 ---
+layout: post
+category: mbp
 title: 我的 Windows OS
+tag: [mbp, win]
 ---
 # 我的 Windows OS
 

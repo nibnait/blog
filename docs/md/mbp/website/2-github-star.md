@@ -1,5 +1,8 @@
 ---
+layout: post
+category: website
 title: 我的 github star
+tag: [website]
 ---
 # 我的 github star
 

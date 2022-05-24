@@ -1,5 +1,8 @@
 ---
+layout: post
+category: mbp
 title: 常用命令
+tag: [mbp]
 ---
 # 常用命令
 

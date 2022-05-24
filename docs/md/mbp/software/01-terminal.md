@@ -1,5 +1,8 @@
 ---
+layout: post
+category: 软件配置
 title: 01 - 终端
+tag: [software, terminal]
 ---
 # 01 - 终端
 

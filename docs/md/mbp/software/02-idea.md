@@ -1,5 +1,8 @@
 ---
-title: 02 - idea
+layout: post
+category: 软件配置
+title: 01 - idea
+tag: [software, idea]
 ---
 # 02 - idea
 

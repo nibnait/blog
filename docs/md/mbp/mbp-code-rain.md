@@ -1,5 +1,8 @@
 ---
+layout: post
+category: mbp
 title: 代码雨
+tag: [mbp]
 ---
 # 代码雨
 

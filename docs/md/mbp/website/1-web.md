@@ -1,5 +1,8 @@
 ---
+layout: post
+category: website
 title: 一些宝藏网站
+tag: [website]
 ---
 # 一些宝藏网站
 

@@ -1,5 +1,8 @@
 ---
+layout: post
+category: Linux
 title: Linux 学习
+tag: [Linux]
 ---
 # Linux 学习
 

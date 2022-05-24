@@ -1,5 +1,8 @@
 ---
-title: git 操作规范
+layout: post
+category: 规范
+title: 常用 git 操作
+tag: [standard, git]
 ---
 # git 操作规范
 

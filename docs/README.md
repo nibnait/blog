@@ -4,12 +4,12 @@ heroImage: /logo.png
 actionText: 进入博客 →
 actionLink: /md/guide.md
 features:
-- title: 沉淀
-  details: 读书笔记、算法套路、开发轶事
-- title: 分享
-  details: 1 + 1 > 2
-- title: 变得更强
-  details: 一起变得更强  
+- title: 器
+  details: 我会 数据结构与算法、Java、Vue
+- title: 术
+  details: 我熟悉 开发流程规范。我精通 设计模式的使用。
+- title: 道
+  details: 解决问题能力、分析问题深度  
 footer: 沪ICP备2022014340号 | GPL Licensed | Copyright © 2022 NibNait，All rights reserved.
 ---
 
