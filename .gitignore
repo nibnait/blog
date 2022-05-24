@@ -34,3 +34,8 @@ build/
 /out
 /node_modules
 /blog-img
+.site
+.site/*
+.temp
+.cache
+yarn.lock

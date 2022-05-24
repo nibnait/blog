@@ -1,12 +1,19 @@
 {
   "name": "blog",
+  "private": true,
   "version": "1.0.0",
   "main": "index.js",
   "repository": "git@github.com:nibnait/blog.git",
-  "author": "tianbin <tianbin@bilibili.com>",
+  "author": "tianbin <w@tianbin.cc>",
   "license": "MIT",
   "scripts": {
-    "dev": "vuepress dev docs",
-    "build": "vuepress build docs"
+    "docs:dev": "vuepress dev docs",
+    "docs:build": "vuepress build docs"
+  },
+  "dependencies": {
+    "vue": "^3.0.0"
+  },
+  "devDependencies": {
+    "vuepress": "^2.0.0-beta.45"
   }
 }
