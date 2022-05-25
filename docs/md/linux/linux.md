@@ -9,10 +9,10 @@ tag: [Linux]
 ## 站在巨人的肩膀上
 | <div style="width:400px">简介</div>                          |          | <div style="width:150px">url</div>                           |
 | ------------------------------------------------------------ | -------- | ------------------------------------------------------------ |
-| 鸟哥的 Linux 私房菜                                          |          | [http://cn.linux.vbird.org/](http://cn.linux.vbird.org/)     |
-| linux-tutorial - 项目包括 Linux 命令、运维管理、开发环境配置、中间件服务配置、服务器运维、Docker、Shell 脚本等等相关教程 | github   | [https://github.com/judasn/Linux-Tutorial](https://github.com/judasn/Linux-Tutorial) |
-| linuxtools_rst - 专注于 Linux 工具的最常用用法，以便读者能以最快时间掌握，并在工作中应用。<br />[https://linuxtools-rst.readthedocs.io/](https://linuxtools-rst.readthedocs.io/zh_CN/latest/base/index.html) | github   | [https://github.com/me115/linuxtools_rst](https://github.com/me115/linuxtools_rst) |
-| 跟着沈奇才 一起读 linux                                      | bilibili | [https://space.bilibili.com/170920967/channel/collectiondetail?sid=388990](https://space.bilibili.com/170920967/channel/collectiondetail?sid=388990) |
+| 鸟哥的 Linux 私房菜                                          |          | <http://cn.linux.vbird.org>                                  |
+| linux-tutorial - 项目包括 Linux 命令、运维管理、开发环境配置、中间件服务配置、服务器运维、Docker、Shell 脚本等等相关教程 | github   | <https://github.com/judasn/Linux-Tutorial>                   |
+| linuxtools_rst - 专注于 Linux 工具的最常用用法，以便读者能以最快时间掌握，并在工作中应用。<br />[https://linuxtools-rst.readthedocs.io/](https://linuxtools-rst.readthedocs.io/zh_CN/latest/base/index.html) | github   | <https://github.com/me115/linuxtools_rst>                    |
+| 跟着沈奇才 一起读 linux                                      | bilibili | <https://space.bilibili.com/170920967/channel/collectiondetail?sid=388990> |
 | Linux-UNIX系统编程手册（上册）.pdf                           | pdf      |                                                              |
 | Linux-UNIX系统编程手册（下册）.pdf                           | pdf      |                                                              |
 | linux程序设计第4版-中.pdf                                    | pdf      |                                                              |
