@@ -1,5 +1,4 @@
 ---
-layout: post
 category: 算法
 title: 算法
 tag: [algorithm]

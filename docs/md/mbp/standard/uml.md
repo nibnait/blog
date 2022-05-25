@@ -1,5 +1,4 @@
 ---
-layout: post
 category: 规范
 title: 统一建模语言（Unified Modeling Language）
 tag: [standard, UML]

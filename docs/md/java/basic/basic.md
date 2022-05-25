@@ -1,5 +1,4 @@
 ---
-layout: post
 category: Java
 title: Java 基础
 tag: [Java]

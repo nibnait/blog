@@ -1,5 +1,4 @@
 ---
-layout: post
 category: 各种教程
 title: 发布自己项目 JAR 到 MAVEN 中央仓库
 tag: [tutorial, jar, maven]
@@ -66,7 +65,7 @@ username 和 password 是上面 注册 sonatype 时 填的账号密码
 
 ```
 
-下面 这一堆 直接丢到 </dependencies> 下面 就好了
+下面 这一堆 直接丢到 `</dependencies>` 下面 就好了
 
 ```xml
     <licenses>

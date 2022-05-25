@@ -1,182 +1,151 @@
+const {defaultTheme} = require('vuepress')
+
 module.exports = {
-    dest: ".site",
-    base: "/",
-    markdown: {
-        lineNumbers: true,
-        externalLinks: {
-            target: '_blank', rel: 'noopener noreferrer'
-        }
-    },
-    locales: {
-        "/": {
-            lang: "zh-CN",
-            title: "NibNait | tianbin",
-            description: "沉淀 + 分享"
-        }
-    },
-    head: [
-        // ico
-        ["link", {rel: "icon", href: `/favicon.ico`}],
-    ],
-    themeConfig: {
-        docsRepo: "nibnait/blog",
-        // 编辑文档的所在目录
-        docsDir: 'docs',
-        docsBranch: 'master',
-        logo: "/logo.png",
-        editLinks: true,
-        smoothScroll: true,
-        sidebar: "auto",
-        sidebarDepth: 0,
-        locales:  {
-            "/": {
-                label: "简体中文",
-                selectText: "Languages",
-                editLinkText: "在 GitHub 上编辑此页",
-                lastUpdated: "上次更新",
-                nav: [
+    title: "NibNait | tianbin",
+    description: "沉淀 + 分享",
+
+    theme: defaultTheme({
+        // 默认主题配置
+        navbar: [
+            {
+                text: '导读',
+                link: '/md/guide.md'
+            },
+            {
+                text: '算法',
+                children: [
                     {
-                        text: '导读',
-                        link: '/md/guide.md'
+                        text: '剑指Offer',
+                        link: '/md/algorithm/algorithm.md'
                     },
                     {
-                        text: '算法',
-                        items: [
+                        text: 'leetcode',
+                        children: [
                             {
-                                text: '剑指Offer',
+                                text: '动态规划',
                                 link: '/md/algorithm/algorithm.md'
                             },
                             {
-                                text: 'leetcode',
-                                items: [
-                                    {
-                                        text: '动态规划',
-                                        link: '/md/algorithm/algorithm.md'
-                                    },
-                                    {
-                                        text: 'xx',
-                                        link: '/md/algorithm/algorithm.md'
-                                    }
-                                ]
-                            },
-                            {
-                                text: '左程云',
-                                items: [
-                                    {
-                                        text: '1',
-                                        link: '/md/algorithm/algorithm.md'
-                                    }
-                                ]
+                                text: 'xx',
+                                link: '/md/algorithm/algorithm.md'
                             }
                         ]
                     },
                     {
-                        text: '设计模式',
-                        link: '/md/design-pattern/design-pattern.md'
-                    },
+                        text: '左程云',
+                        children: [
+                            {
+                                text: '1',
+                                link: '/md/algorithm/algorithm.md'
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                text: '设计模式',
+                link: '/md/design-pattern/design-pattern.md'
+            },
+            {
+                text: 'Java',
+                children: [
                     {
                         text: 'Java',
-                        items: [
+                        children: [
                             {
-                                text: 'Java',
-                                items: [
-                                    {
-                                        text: 'Java 基础',
-                                        link: '/md/java/basic/basic.md'
-                                    },
-                                    {
-                                        text: '并发编程',
-                                        link: '/md/java/concurrent/concurrent.md'
-                                    },
-                                    {
-                                        text: 'JVM 虚拟机',
-                                        link: '/md/java/jvm/jvm.md'
-                                    }
-                                ]
+                                text: 'Java 基础',
+                                link: '/md/java/basic/basic.md'
                             },
                             {
-                                text: 'Netty',
-                                items: [
-                                    {
-                                        text: '入门',
-                                        link: '/md/netty/netty.md'
-                                    }
-                                ]
+                                text: '并发编程',
+                                link: '/md/java/concurrent/concurrent.md'
                             },
+                            {
+                                text: 'JVM 虚拟机',
+                                link: '/md/java/jvm/jvm.md'
+                            }
+                        ]
+                    },
+                    {
+                        text: 'Netty',
+                        children: [
+                            {
+                                text: '入门',
+                                link: '/md/netty/netty.md'
+                            }
+                        ]
+                    },
+                    {
+                        text: 'Spring',
+                        children: [
                             {
                                 text: 'Spring',
-                                items: [
-                                    {
-                                        text: 'Spring',
-                                        link: '/md/java/spring/spring.md'
-                                    },
-                                    {
-                                        text: 'SpringBoot',
-                                        link: '/md/java/spring/spring.md'
-                                    }
-                                ]
+                                link: '/md/java/spring/spring.md'
+                            },
+                            {
+                                text: 'SpringBoot',
+                                link: '/md/java/spring/spring.md'
                             }
                         ]
-                    },
-                    {
-                        text: 'Linux',
-                        link: '/md/linux/linux.md'
-                    },
-                    {
-                        text: '我的mbp',
-                        items: [
-                            {
-                                text: '我的 MacBook Pro',
-                                link: '/md/mbp/my-mac.md'
-                            },
-                            {
-                                text: '好用的网站',
-                                link: '/md/mbp/website/1-web.md'
-                            },
-                            {
-                                text: '值得 star 的 github 仓库',
-                                link: '/md/mbp/website/2-github-star.md'
-                            },
-                            {
-                                text: '各种教程',
-                                link: '/md/mbp/tutorial/tutorial.md'
-                            }
-                        ]
-                    },
-                    {
-                        text: '随笔',
-                        link: '/md/essay/2205.md'
-                    },
-                    {
-                        text: '关于',
-                        link: '/md/about.md'
-                    },
-                    {
-                        text: 'Github',
-                        link: 'https://github.com/nibnait/blog'
                     }
-                ],
-                sidebar: {
-                    "/md/algorithm/": algorithmCatalog(),
-                    "/md/design-pattern/": designPatternCatalog(),
-                    "/md/essay/": essayCatalog(),
-                    "/md/java/": javaCatalog(),
-                    "/md/linux/": linuxCatalog(),
-                    "/md/mbp/": mbpCatalog(),
-                    "/md/netty/": nettyCatalog()
-                }
+                ]
+            },
+            {
+                text: 'Linux',
+                link: '/md/linux/linux.md'
+            },
+            {
+                text: '我的mbp',
+                children: [
+                    {
+                        text: '我的 MacBook Pro',
+                        link: '/md/mbp/my-mac.md'
+                    },
+                    {
+                        text: '好用的网站',
+                        link: '/md/mbp/website/1-web.md'
+                    },
+                    {
+                        text: '值得 star 的 github 仓库',
+                        link: '/md/mbp/website/2-github-star.md'
+                    },
+                    {
+                        text: '各种教程',
+                        link: '/md/tutorial/tutorial.md'
+                    }
+                ]
+            },
+            {
+                text: '随笔',
+                link: '/md/essay/2205.md'
+            },
+            {
+                text: '关于',
+                link: '/md/about.md'
+            },
+            {
+                text: 'Github',
+                link: 'https://github.com/nibnait/blog'
             }
+        ],
+        sidebar: {
+            "/md/algorithm/": algorithmCatalog(),
+            "/md/design-pattern/": designPatternCatalog(),
+            "/md/essay/": essayCatalog(),
+            "/md/java/": javaCatalog(),
+            "/md/linux/": linuxCatalog(),
+            "/md/mbp/": mbpCatalog(),
+            "/md/netty/": nettyCatalog(),
+            "/md/tutorial/": tutorialCatalog()
         }
-    },
-};
+    })
+}
 
 // 算法
 function algorithmCatalog() {
     return [
         {
-            title: "算法",
-            collapsable: false,
-            sidebarDepth: 1,
+            text: "算法",
             children: [
                 "algorithm.md"
             ]
@@ -188,9 +157,7 @@ function algorithmCatalog() {
 function designPatternCatalog() {
     return [
         {
-            title: "设计模式",
-            collapsable: false,
-            sidebarDepth: 1,
+            text: "设计模式",
             children: [
                 "design-pattern.md"
             ]
@@ -202,9 +169,7 @@ function designPatternCatalog() {
 function essayCatalog() {
     return [
         {
-            title: "随笔",
-            collapsable: false,
-            sidebarDepth: 1,
+            text: "随笔",
             children: [
                 "2205.md"
             ]
@@ -216,35 +181,39 @@ function essayCatalog() {
 function javaCatalog() {
     return [
         {
-            title: "Java 基础",
-            collapsable: false,
-            sidebarDepth: 1,
+            text: "Java 基础",
             children: [
-                "basic/basic.md"
+                {
+                    text: '数据结构',
+                    link: '/basic.md'
+                }
             ]
         },
         {
-            title: "并发编程",
-            collapsable: false,
-            sidebarDepth: 1,
+            text: "并发编程",
             children: [
-                "concurrent/concurrent.md"
+                {
+                    text: '多线程',
+                    link: '/concurrent.md'
+                }
             ]
         },
         {
-            title: "JVM 虚拟机",
-            collapsable: false,
-            sidebarDepth: 1,
+            text: "JVM 虚拟机",
             children: [
-                "jvm/jvm.md"
+                {
+                    text: 'JVM 内存模型',
+                    link: '/jvm.md'
+                }
             ]
         },
         {
-            title: "Spring",
-            collapsable: false,
-            sidebarDepth: 1,
+            text: "Spring",
             children: [
-                "spring/spring.md"
+                {
+                    text: '动态代理',
+                    link: '/spring.md'
+                }
             ]
         }
     ]
@@ -254,9 +223,7 @@ function javaCatalog() {
 function linuxCatalog() {
     return [
         {
-            title: "Linux",
-            collapsable: false,
-            sidebarDepth: 1,
+            text: "Linux",
             children: [
                 "linux.md",
                 "my-centos.md"
@@ -269,9 +236,7 @@ function linuxCatalog() {
 function mbpCatalog() {
     return [
         {
-            title: "我的mbp",
-            collapsable: false,
-            sidebarDepth: 2,
+            text: "我的mbp",
             children: [
                 "my-mac.md",
                 "mbp-code-rain.md",
@@ -280,9 +245,7 @@ function mbpCatalog() {
             ]
         },
         {
-            title: "一些规范",
-            collapsable: false,
-            sidebarDepth: 1,
+            text: "一些规范",
             children: [
                 "standard/common-git.md",
                 "standard/git-standard.md",
@@ -290,9 +253,7 @@ function mbpCatalog() {
             ]
         },
         {
-            title: "我的软件配置存档",
-            collapsable: false,
-            sidebarDepth: 1,
+            text: "我的软件配置存档",
             children: [
                 "software/01-terminal.md",
                 "software/02-idea.md",
@@ -300,25 +261,12 @@ function mbpCatalog() {
             ]
         },
         {
-            title: '好用的网站',
-            collapsable: false,
-            sidebarDepth: 1,
+            text: '好用的网站',
             children: [
                 "website/1-web.md",
                 "website/2-github-star.md"
             ]
         },
-        {
-            title: '各种教程',
-            collapsable: false,
-            sidebarDepth: 1,
-            children: [
-                "tutorial/01-vuepress.md",
-                "tutorial/02-cloudreve.md",
-                "tutorial/03-jar-to-maven.md",
-                "tutorial/04-mysql-password.md"
-            ]
-        }
     ]
 }
 
@@ -326,11 +274,31 @@ function mbpCatalog() {
 function nettyCatalog() {
     return [
         {
-            title: "基础入门篇",
-            collapsable: false,
-            sidebarDepth: 0,
+            text: "基础入门篇",
             children: [
                 "netty.md"
+            ]
+        }
+    ]
+}
+
+// 各种教程
+function tutorialCatalog() {
+    return [
+        {
+            text: "各种教程",
+            children: [
+                {text: '使用 cloudreve 搭建个人网盘', link: '/md/tutorial/01-cloudreve.md'},
+                {text: '发布自己项目 JAR 到 MAVEN 中央仓库', link: '/md/tutorial/02-jar-to-maven.md'},
+                {text: 'mysql 密码忘了', link: '/md/tutorial/03-mysql-password.md'},
+                {
+                    text: 'vuepress 系列',
+                    children: [
+                        {text: 'vuepress 博客的诞生记', link: '/md/tutorial/vuepress/01-hello-world.md'},
+                        {text: 'vuepress 从 1.x 升级到 2.0', link: '/md/tutorial/vuepress/02-upgrade-2.0.md'},
+                        {text: 'vuepress 博客站点优化', link: '/md/tutorial/vuepress/03-optimize.md'}
+                    ]
+                }
             ]
         }
     ]

@@ -1,5 +1,4 @@
 ---
-layout: post
 category: 各种教程
 title: mysql 密码忘了
 tag: [tutorial, mysql]

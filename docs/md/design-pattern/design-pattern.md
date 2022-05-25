@@ -1,5 +1,4 @@
 ---
-layout: post
 category: 设计模式
 title: 设计模式
 tag: [design-pattern]

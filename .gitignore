@@ -34,8 +34,8 @@ build/
 /out
 /node_modules
 /blog-img
-.site
-.site/*
-.temp
-.cache
+/docs/.vuepress/dist/
+/docs/.vuepress/.temp/
+/docs/.vuepress/.cache/
+
 yarn.lock

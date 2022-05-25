@@ -1,5 +1,4 @@
 ---
-layout: post
 category: 各种教程
 title: vuepress 博客的诞生记
 tag: [tutorial, vuepress]

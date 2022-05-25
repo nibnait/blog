@@ -1,5 +1,4 @@
 ---
-layout: post
 category: Linux
 title: Linux 学习
 tag: [Linux]

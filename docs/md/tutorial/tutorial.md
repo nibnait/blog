@@ -1,5 +1,4 @@
 ---
-layout: post
 category: 各种教程
 title: 各种教程
 tag: [tutorial]

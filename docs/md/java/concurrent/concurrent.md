@@ -1,5 +1,4 @@
 ---
-layout: post
 category: Java
 title: 并发编程
 tag: [Java, concurrent]
