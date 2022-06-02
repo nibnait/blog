@@ -16,18 +16,41 @@ tag: [website]
 
 ## 小工具
 
+| <div style="width:400px">简介</div> | <div style="width:100px">url</div>                       |
+| ----------------------------------- | -------------------------------------------------------- |
+| 临时邮件                            | <https://temp-mail.org/zh>                               |
+| 正则图形化                          | <https://regexper.com>                                   |
+| cron                                | <https://cron.qqe2.com><br /><https://tool.lu/crontab>   |
+| json格式化                          | <https://www.sojson.com>                                 |
+| 在线秒表/计时器                     | <https://naozhong.net.cn/miaobiao/#enabled=0&msec=76662> |
+| 隔空传文件                          | <https://airportal.cn>                                   |
+| 图片压缩                            | <https://squoosh.app>                                    |
+| 多个地点 ping                       | <https://ping.chinaz.com>                                |
+
+## 地球
+
 | <div style="width:400px">简介</div> | <div style="width:100px">url</div>                           |
 | ----------------------------------- | ------------------------------------------------------------ |
-| 临时邮件                            | <https://temp-mail.org/zh>                                   |
-| 正则图形化                          | <https://regexper.com>                                       |
-| cron                                | <https://cron.qqe2.com><br /><https://tool.lu/crontab>       |
-| json格式化                          | <https://www.sojson.com>                                     |
-| 在线秒表/计时器                     | <https://naozhong.net.cn/miaobiao/#enabled=0&msec=76662>     |
-| 隔空传文件                          | <https://airportal.cn>                                       |
-| 图片压缩                            | <https://squoosh.app>                                        |
-| 多个地点 ping                       | <https://ping.chinaz.com>                                    |
+| 风、气象、海洋状态                  | <https://earth.nullschool.net/zh-cn/#current/wind/surface/level> |
+| 实时天气、风暴追踪器                | <https://zoom.earth>                                         |
 | 实时飞机航线图                      | <https://www.flightradar24.com>                              |
-| 实时地球                            | <https://earth.nullschool.net/zh-cn/#current/wind/surface/level> |
+
+
+
+## AI 工具
+
+| <div style="width:400px">简介</div> | <div style="width:100px">url</div>                    |
+| ----------------------------------- | ----------------------------------------------------- |
+| 音乐人声分离                        | <https://www.lalal.ai>                                |
+| 图片找番剧                          | <https://trace.moe>                                   |
+| 台词找电影                          | <http://www.zhaotaici.cn>                             |
+| 画作动起来                          | <https://sketch.metademolab.com>                      |
+| 擦除图片物体                        | <https://www.magiceraser.io>                          |
+| 抠图                                | <https://www.backgrounderaser.io>                     |
+| 卡通化你的脸                        | <https://toonme.com/result>                           |
+| 黑白照片上色                        | <https://deepai.org/machine-learning-model/colorizer> |
+
+
 
 ## 在线读书
 
