@@ -18,7 +18,7 @@ const algorithmSide = {
             {
                 text: "大厂刷题班",
                 children: [
-                    {text: "01 位运算、算法是什么、介绍位运算和简单排序", link: "/md/algorithm/03-for-great-offer/class01.md"}
+                    {text: "01 大厂高频算法和数据结构面试题1", link: "/md/algorithm/03-for-great-offer/class01.md"}
                 ]
             }
         ]
