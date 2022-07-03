@@ -1,6 +1,6 @@
 ---
 category: 软件配置
-title: 01 - idea
+title: 02 - idea
 tag: [software, idea]
 ---
 # 02 - idea

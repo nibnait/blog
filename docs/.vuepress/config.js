@@ -1,8 +1,11 @@
 const {defaultTheme} = require('vuepress')
 const rootpath = "/Users/nibnait/blog/docs/.vuepress"
+
 const algorithmSide = require(rootpath + '/sidebar/1-algorithm.js');
-const designPatternSide = require(rootpath + '/sidebar/2-design-pattern.js');
-const javaSide = require(rootpath + '/sidebar/3-java.js');
+const javaSide = require(rootpath + '/sidebar/2-java.js');
+const linuxSide = require(rootpath + '/sidebar/3-linux.js');
+const mbpSide = require(rootpath + '/sidebar/4-mbp.js');
+const nettySide = require(rootpath + '/sidebar/5-netty.js');
 
 module.exports = {
     title: "NibNait | tianbin",
@@ -19,36 +22,14 @@ module.exports = {
                 text: '算法',
                 children: [
                     {
-                        text: '剑指Offer',
-                        link: '/md/algorithm/algorithm.md'
+                        text: '体系学习班',
+                        link: '/md/algorithm/02-basic/class01.md'
                     },
                     {
-                        text: 'leetcode',
-                        children: [
-                            {
-                                text: '动态规划',
-                                link: '/md/algorithm/algorithm.md'
-                            },
-                            {
-                                text: 'xx',
-                                link: '/md/algorithm/algorithm.md'
-                            }
-                        ]
-                    },
-                    {
-                        text: '左程云',
-                        children: [
-                            {
-                                text: '1',
-                                link: '/md/algorithm/algorithm.md'
-                            }
-                        ]
+                        text: '大厂刷题班',
+                        link: '/md/algorithm/03-for-great-offer/class01.md'
                     }
                 ]
-            },
-            {
-                text: '设计模式',
-                link: '/md/design-pattern/design-pattern.md'
             },
             {
                 text: 'Java',
@@ -80,7 +61,7 @@ module.exports = {
                         ]
                     },
                     {
-                        text: 'Spring',
+                        text: '手撸 Spring',
                         children: [
                             {
                                 text: 'Spring',
@@ -88,6 +69,15 @@ module.exports = {
                             },
                             {
                                 text: 'SpringBoot',
+                                link: '/md/java/spring/spring.md'
+                            }
+                        ]
+                    },
+                    {
+                        text: '手撸 Mybatis',
+                        children: [
+                            {
+                                text: 'Spring',
                                 link: '/md/java/spring/spring.md'
                             }
                         ]
@@ -125,102 +115,19 @@ module.exports = {
             },
             {
                 text: 'Github',
-                link: 'https://github.com/nibnait'
+                children: [
+                    {text: "剑指Offer", link: "https://github.com/nibnait/algorithms/blob/master/src/main/java/algorithm_practice/SwordOffer/README.md"},
+                    {text: "左神的算法班", link: "https://github.com/nibnait/algorithms/tree/master/src/main/java/algorithm_practice/algorithmzuo"},
+                    {text: "设计模式", link: "https://github.com/nibnait/design-pattern-demo"}
+                ]
             }
         ],
         sidebar: {
             "/md/algorithm/": algorithmSide.getSidebar(),
-            "/md/design-pattern/": designPatternSide.getSidebar(),
             "/md/java/": javaSide.getSidebar(),
-            "/md/linux/": linuxCatalog(),
-            "/md/mbp/": mbpCatalog(),
-            "/md/netty/": nettyCatalog()
+            "/md/linux/": linuxSide.getSidebar(),
+            "/md/mbp/": mbpSide.getSidebar(),
+            "/md/netty/": nettySide.getSidebar()
         }
     })
-}
-
-// Linux
-function linuxCatalog() {
-    return [
-        {
-            title: "Linux",
-            collapsable: false,
-            sidebarDepth: 1,
-            children: [
-                "linux.md",
-                "my-centos.md"
-            ]
-        }
-    ]
-}
-
-// mbp
-function mbpCatalog() {
-    return [
-        {
-            title: "我的mbp",
-            collapsable: false,
-            sidebarDepth: 2,
-            children: [
-                "my-mac.md",
-                "mbp-code-rain.md",
-                "mbp-common-cmd.md",
-                "my-win.md"
-            ]
-        },
-        {
-            title: "一些规范",
-            collapsable: false,
-            sidebarDepth: 1,
-            children: [
-                "standard/common-git.md",
-                "standard/git-standard.md",
-                "standard/uml.md"
-            ]
-        },
-        {
-            title: "我的软件配置存档",
-            collapsable: false,
-            sidebarDepth: 1,
-            children: [
-                "software/01-terminal.md",
-                "software/02-idea.md",
-                "software/03-vscode.md"
-            ]
-        },
-        {
-            title: '好用的网站',
-            collapsable: false,
-            sidebarDepth: 1,
-            children: [
-                "website/1-web.md",
-                "website/2-github-star.md"
-            ]
-        },
-        {
-            title: '各种教程',
-            collapsable: false,
-            sidebarDepth: 1,
-            children: [
-                "tutorial/01-vuepress.md",
-                "tutorial/02-cloudreve.md",
-                "tutorial/03-jar-to-maven.md",
-                "tutorial/04-mysql-password.md"
-            ]
-        }
-    ]
-}
-
-// Netty
-function nettyCatalog() {
-    return [
-        {
-            title: "基础入门篇",
-            collapsable: false,
-            sidebarDepth: 0,
-            children: [
-                "netty.md"
-            ]
-        }
-    ]
 }

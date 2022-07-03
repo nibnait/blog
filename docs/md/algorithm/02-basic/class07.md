@@ -64,5 +64,7 @@ op[i] == F就代表这个用户退货了一件商品
 如果下次该用户又发生购买行为，产生>0的购买数，
 会再次根据之前规则回到某个区域中，进入区域的时间重记
 请遍历arr数组和op数组，遍历每一步输出一个得奖名单
+```java
 public List<List<Integer>>  topK (int[] arr, boolean[] op, int k)
+```
 
