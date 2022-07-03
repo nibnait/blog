@@ -1,7 +1,8 @@
 const {defaultTheme} = require('vuepress')
 const rootpath = "/Users/nibnait/blog/docs/.vuepress"
-const docs = "/Users/nibnait/blog/docs";
-const sidebarUtils = require(rootpath + '/utils/sidebarUtils.js');
+const algorithmSide = require(rootpath + '/sidebar/1-algorithm.js');
+const designPatternSide = require(rootpath + '/sidebar/2-design-pattern.js');
+const javaSide = require(rootpath + '/sidebar/3-java.js');
 
 module.exports = {
     title: "NibNait | tianbin",
@@ -128,13 +129,98 @@ module.exports = {
             }
         ],
         sidebar: {
-            "/md/algorithm/": sidebarUtils.genSidebar(docs, "/md/algorithm"),
-            "/md/design-pattern/": sidebarUtils.genSidebar(docs, "/md/design-pattern"),
-            "/md/java/": sidebarUtils.genSidebar(docs, "/md/java"),
-            "/md/linux/": sidebarUtils.genSidebar(docs, "/md/linux"),
-            "/md/mbp/": sidebarUtils.genSidebar(docs, "/md/mbp"),
-            "/md/netty/": sidebarUtils.genSidebar(docs, "/md/netty"),
-            "/md/tutorial/": sidebarUtils.genSidebar(docs, "/md/tutorial")
+            "/md/algorithm/": algorithmSide.getSidebar(),
+            "/md/design-pattern/": designPatternSide.getSidebar(),
+            "/md/java/": javaSide.getSidebar(),
+            "/md/linux/": linuxCatalog(),
+            "/md/mbp/": mbpCatalog(),
+            "/md/netty/": nettyCatalog()
         }
     })
+}
+
+// Linux
+function linuxCatalog() {
+    return [
+        {
+            title: "Linux",
+            collapsable: false,
+            sidebarDepth: 1,
+            children: [
+                "linux.md",
+                "my-centos.md"
+            ]
+        }
+    ]
+}
+
+// mbp
+function mbpCatalog() {
+    return [
+        {
+            title: "我的mbp",
+            collapsable: false,
+            sidebarDepth: 2,
+            children: [
+                "my-mac.md",
+                "mbp-code-rain.md",
+                "mbp-common-cmd.md",
+                "my-win.md"
+            ]
+        },
+        {
+            title: "一些规范",
+            collapsable: false,
+            sidebarDepth: 1,
+            children: [
+                "standard/common-git.md",
+                "standard/git-standard.md",
+                "standard/uml.md"
+            ]
+        },
+        {
+            title: "我的软件配置存档",
+            collapsable: false,
+            sidebarDepth: 1,
+            children: [
+                "software/01-terminal.md",
+                "software/02-idea.md",
+                "software/03-vscode.md"
+            ]
+        },
+        {
+            title: '好用的网站',
+            collapsable: false,
+            sidebarDepth: 1,
+            children: [
+                "website/1-web.md",
+                "website/2-github-star.md"
+            ]
+        },
+        {
+            title: '各种教程',
+            collapsable: false,
+            sidebarDepth: 1,
+            children: [
+                "tutorial/01-vuepress.md",
+                "tutorial/02-cloudreve.md",
+                "tutorial/03-jar-to-maven.md",
+                "tutorial/04-mysql-password.md"
+            ]
+        }
+    ]
+}
+
+// Netty
+function nettyCatalog() {
+    return [
+        {
+            title: "基础入门篇",
+            collapsable: false,
+            sidebarDepth: 0,
+            children: [
+                "netty.md"
+            ]
+        }
+    ]
 }
