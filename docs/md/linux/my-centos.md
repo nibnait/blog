@@ -1,5 +1,4 @@
 ---
-layout: post
 category: Linux
 title: 我的 Centos
 tag: [Linux, Centos]

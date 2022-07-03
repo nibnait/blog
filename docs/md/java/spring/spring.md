@@ -1,5 +1,4 @@
 ---
-layout: post
 category: Java
 title: Spring
 tag: [Java, Spring]

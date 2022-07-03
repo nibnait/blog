@@ -1,5 +1,4 @@
 ---
-layout: post
 category: Java
 title: JVM 虚拟机
 tag: [Java, JVM]
