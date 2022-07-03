@@ -1,5 +1,5 @@
 ---
-category: website
+≈category: website
 title: 一些宝藏网站
 tag: [website]
 ---
@@ -26,6 +26,9 @@ tag: [website]
 | 隔空传文件                          | <https://airportal.cn>                                   |
 | 图片压缩                            | <https://squoosh.app>                                    |
 | 多个地点 ping                       | <https://ping.chinaz.com>                                |
+| json 转 excel                       | <https://wejson.cn/json2excel/>                          |
+| excel 转 json                       | <https://uutool.cn/excel2json/>                          |
+| 高架夜间封路_上海市道路运输管理局        | <http://dlysj.sh.gov.cn/gjyjfl/index.html>               |
 
 ## 地球
 
