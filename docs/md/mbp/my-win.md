@@ -52,9 +52,9 @@ oh-my-posh的安装还是比较简单的
 
 ## parallel win10 虚拟机 偏好设置
 
-![image.png](https://tianbin.cc/img/mbp/win-01.jpg)
+![image.png](https://img.tianbin.cc/mbp/win-01.jpg)
 
-![image.png](https://tianbin.cc/img/mbp/win-02.jpg)
+![image.png](https://img.tianbin.cc/mbp/win-02.jpg)
 
 git bash alias
 

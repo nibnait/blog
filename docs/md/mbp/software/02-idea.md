@@ -22,24 +22,24 @@ tag: [software, idea]
 
 ### project win
 
-![image.png](https://tianbin.cc/img/mbp/software/02-idea-01-project-window.jpg)
+![image.png](https://img.tianbin.cc/mbp/software/02-idea-01-project-window.jpg)
 
 ### move caret line start
 
-![image.png](https://tianbin.cc/img/mbp/software/02-idea-02-move-start.jpg)
+![image.png](https://img.tianbin.cc/mbp/software/02-idea-02-move-start.jpg)
 ### move caret line end
 
-![image.png](https://tianbin.cc/img/mbp/software/02-idea-03-move-end.jpg)
+![image.png](https://img.tianbin.cc/mbp/software/02-idea-03-move-end.jpg)
 
 # 一些设置
 
 ### all match
 
-![image.png](https://tianbin.cc/img/mbp/software/02-idea-04-allmatch.jpg)
+![image.png](https://img.tianbin.cc/mbp/software/02-idea-04-allmatch.jpg)
 
 ### file encoding
 
-![image.png](https://tianbin.cc/img/mbp/software/02-idea-05-fileencoding.jpg)
+![image.png](https://img.tianbin.cc/mbp/software/02-idea-05-fileencoding.jpg)
 
 # 一些插件
 

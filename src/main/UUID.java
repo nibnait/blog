@@ -9,3 +9,11 @@ public class UUID {
         System.out.println(java.util.UUID.randomUUID());
     }
 }
+
+/*
+
+https://img.tianbin.cc
+
+/Users/nibnait/blog/blog-img
+
+ */

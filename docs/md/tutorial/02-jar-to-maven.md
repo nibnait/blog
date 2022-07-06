@@ -17,13 +17,13 @@ Sonatype通过JIRA来管理OSSRH仓库。JIRA是一个项目管理服务，类�
 
 ### 项目的发布申请
 
-![image.png](https://tianbin.cc/img/mbp/tutorial/04-00.jpg)
-![image.png](https://tianbin.cc/img/mbp/tutorial/04-01.jpg)
+![image.png](https://img.tianbin.cc/mbp/tutorial/04-00.jpg)
+![image.png](https://img.tianbin.cc/mbp/tutorial/04-01.jpg)
 
 ### （按提示来就好了）
 
 [https://issues.sonatype.org/projects/OSSRH/issues/OSSRH-79805?filter=allissues](https://issues.sonatype.org/projects/OSSRH/issues/OSSRH-79805?filter=allissues)
-![image.png](https://tianbin.cc/img/mbp/tutorial/04-02.jpg)
+![image.png](https://img.tianbin.cc/mbp/tutorial/04-02.jpg)
 
 [https://central.sonatype.org/publish/publish-guide/#deployment](https://central.sonatype.org/publish/publish-guide/#deployment)
 [https://central.sonatype.org/publish/release/](https://central.sonatype.org/publish/release/)
@@ -31,14 +31,14 @@ Sonatype通过JIRA来管理OSSRH仓库。JIRA是一个项目管理服务，类�
 # 2. 下载并安装GPG
 
 下载并安装GPG Suite  [https://gpgtools.org/](https://gpgtools.org/)  
-![image.png](https://tianbin.cc/img/mbp/tutorial/04-03.png)
+![image.png](https://img.tianbin.cc/mbp/tutorial/04-03.png)
 
 # 3. 修改 setting.xml 和 pom.xml
 
 ### setting.xml
 
 一定要修改 ~/.m2/setting.xml，其他路径、其他文件名 都不行  
-![image.png](https://tianbin.cc/img/mbp/tutorial/04-04.jpg)  
+![image.png](https://img.tianbin.cc/mbp/tutorial/04-04.jpg)  
 新增一个 server
 
 ```sql
@@ -214,11 +214,11 @@ username 和 password 是上面 注册 sonatype 时 填的账号密码
 
 后来 仔细读了 [issues](https://issues.sonatype.org/projects/OSSRH/issues/OSSRH-79805?filter=allissues) 里的 英格力是 才发现，21年2后以后，repository 地址改到 https://s01.oss.sonatype.org 了👇  。。然后又通篇读了遍教程，改了改其他配置，才成功上传
 [https://central.sonatype.org/publish/publish-guide/#deployment](https://central.sonatype.org/publish/publish-guide/#deployment)
-![image.png](https://tianbin.cc/img/mbp/tutorial/04-05.jpg)
+![image.png](https://img.tianbin.cc/mbp/tutorial/04-05.jpg)
 
 # 4.  打包 上传
 
 `mvn clean deploy -P release`
 
 这个 release 是这里的 id   
-![image.png](https://tianbin.cc/img/mbp/tutorial/04-06.jpg)
+![image.png](https://img.tianbin.cc/mbp/tutorial/04-06.jpg)

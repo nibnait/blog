@@ -10,6 +10,6 @@ tag: [software, vscode]
 ## project manager
 
 Project Manager: List Projects to Open in New Window
-![image.png](https://tianbin.cc/img/mbp/software/03-vscode-01-project-manager.jpg)
+![image.png](https://img.tianbin.cc/mbp/software/03-vscode-01-project-manager.jpg)
 Add Selection To Next Find Match
-![image.png](https://tianbin.cc/img/mbp/software/03-vscode-02.jpg)
+![image.png](https://img.tianbin.cc/mbp/software/03-vscode-02.jpg)

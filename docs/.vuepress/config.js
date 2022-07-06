@@ -23,7 +23,7 @@ module.exports = {
                 children: [
                     {
                         text: '体系学习班',
-                        link: '/md/algorithm/02-basic/class01.md'
+                        link: '/md/algorithm/02-basic/class03.md'
                     },
                     {
                         text: '大厂刷题班',
