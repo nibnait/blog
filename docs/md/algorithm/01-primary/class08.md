@@ -1,7 +1,7 @@
 ---
 category: 算法
 title: 08 介绍归并排序和快速排序
-tag: [algorithm, 左神-体系学习班]
+tag: [algorithm, 左神-新手班]
 ---
 # 08 介绍归并排序和快速排序
 

@@ -115,11 +115,7 @@ module.exports = {
             },
             {
                 text: 'Github',
-                children: [
-                    {text: "《剑指Offer》", link: "https://github.com/nibnait/algorithms/blob/master/src/main/java/algorithm_practice/SwordOffer/README.md"},
-                    {text: "「左神的算法班」", link: "https://github.com/nibnait/algorithms/tree/master/src/main/java/algorithm_practice/algorithmzuo"},
-                    {text: "设计模式", link: "https://github.com/nibnait/design-pattern-demo"}
-                ]
+                link: "https://github.com/nibnait"
             }
         ],
         sidebar: {

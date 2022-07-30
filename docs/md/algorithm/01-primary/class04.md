@@ -1,7 +1,7 @@
 ---
 category: 算法
 title: 04 链表相关的简单面试题
-tag: [algorithm, 左神-体系学习班]
+tag: [algorithm, 左神-新手班]
 ---
 # 04 链表相关的简单面试题
 

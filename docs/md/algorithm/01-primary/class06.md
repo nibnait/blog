@@ -1,7 +1,7 @@
 ---
 category: 算法
 title: 06 比较器、优先级队列、二叉树
-tag: [algorithm, 左神-体系学习班]
+tag: [algorithm, 左神-新手班]
 ---
 # 06 比较器、优先级队列、二叉树
 

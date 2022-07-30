@@ -23,22 +23,25 @@ title: 我的 MacBook Pro
 
 ## 去官网下载最新版
 
-| 简介                     | 官网地址                                                     |
-| ------------------------ | ------------------------------------------------------------ |
-| 搜狗输入法               | [https://pinyin.sogou.com/mac/](https://pinyin.sogou.com/mac/) |
-| 百度网盘                 | https://pan.baidu.com/                                       |
-| Surge                    | [http://nssurge.com/](http://nssurge.com/8)                  |
-| 磁盘管理                 | [https://daisydiskapp.com/#](https://daisydiskapp.com/#)     |
-| clean my mac             | [http://www.mycleanmymac.com/xiazai.html](http://www.mycleanmymac.com/xiazai.html) |
-| Paragon NTFS for Mac     | https://my.paragon-software.com/                             |
-| 电池管理                 | [https://apphousekitchen.com/](https://apphousekitchen.com/) |
-| FileZilla                | [https://filezilla-project.org/download.php](https://filezilla-project.org/download.php) |
-| uTools                   | [https://u.tools/](https://u.tools/)                         |
-| Logitech Options         | [https://www.logitech.com.cn/zh-cn/product/options](https://www.logitech.com.cn/zh-cn/product/options) |
-| ezip                     | [https://ezip.awehunt.com/](https://ezip.awehunt.com/)       |
+| 简介                     | 官网地址                                                                                                                                                                     |
+| ------------------------ | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| 搜狗输入法               | [https://pinyin.sogou.com/mac/](https://pinyin.sogou.com/mac/)                                                                                                               |
+| 百度网盘                 | https://pan.baidu.com/                                                                                                                                                       |
+| Surge                    | [http://nssurge.com/](http://nssurge.com/8)                                                                                                                                  |
+| 磁盘管理                 | [https://daisydiskapp.com/#](https://daisydiskapp.com/#)                                                                                                                     |
+| clean my mac             | [http://www.mycleanmymac.com/xiazai.html](http://www.mycleanmymac.com/xiazai.html)                                                                                           |
+| Paragon NTFS for Mac     | https://my.paragon-software.com/                                                                                                                                             |
+| 电池管理                 | [https://apphousekitchen.com/](https://apphousekitchen.com/)                                                                                                                 |
+| FileZilla（FTP）         | [https://filezilla-project.org/download.php](https://filezilla-project.org/download.php)                                                                                     |
+| uTools                   | [https://u.tools/](https://u.tools/)                                                                                                                                         |
+| Logitech Options         | [https://www.logitech.com.cn/zh-cn/product/options](https://www.logitech.com.cn/zh-cn/product/options)                                                                       |
+| ezip                     | [https://ezip.awehunt.com/](https://ezip.awehunt.com/)                                                                                                                       |
 | Karabiner，键盘 key 映射 | [https://karabiner-elements.pqrs.org/](https://karabiner-elements.pqrs.org/)<br />[https://github.com/nibnait/karabiner-config](https://github.com/nibnait/karabiner-config) |
-| XCode                    | [https://developer.apple.com/download/more/?=xcode](https://developer.apple.com/download/more/?=xcode) |
-| Sublime Text             | [https://www.sublimetext.com](https://www.sublimetext.com) <br/>[https://packagecontrol.io/installation](https://packagecontrol.io/installation) |
+| XCode                    | [https://developer.apple.com/download/more/?=xcode](https://developer.apple.com/download/more/?=xcode)                                                                       |
+| Sublime Text             | [https://www.sublimetext.com](https://www.sublimetext.com) <br/>[https://packagecontrol.io/installation](https://packagecontrol.io/installation)                             |
+| Obsidian                 | <https://obsidian.md/>                                                                                                                                                       |
+| Macs Fan Control Pro     | <https://crystalidea.com/macs-fan-control>                                                                                                                                   |
+| foobar2000     | <https://www.foobar2000.org/download>                                                                                                                                   |
 
 ```
 ctrl + `

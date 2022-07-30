@@ -1,7 +1,7 @@
 ---
 category: 算法
 title: 07 继续二叉树的很多题目
-tag: [algorithm, 左神-体系学习班]
+tag: [algorithm, 左神-新手班]
 ---
 # 07 继续二叉树的很多题目
 

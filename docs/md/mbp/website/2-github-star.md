@@ -28,6 +28,7 @@ tag: [website]
 | iScreenSaver，自定义屏保            | <https://github.com/titman/iScreenSaver/releases> |
 | warpd 全键盘的最后一公里            | <https://github.com/rvaiya/warpd>                 |
 | Hidden Bar                          | <https://github.com/dwarvesf/hidden>              |
+| LyricsX                          | <https://github.com/ddddxxx/LyricsX>              |
 
 ## springboot+vue
 

@@ -16,7 +16,8 @@ const mbpSide = {
                 children: [
                     {text: "常用 git 操作", link: "/md/mbp/standard/common-git.html"},
                     {text: "git commit 规范", link: "/md/mbp/standard/git-standard.html"},
-                    {text: "统一建模语言（Unified Modeling Language）", link: "/md/mbp/standard/uml.html"}
+                    {text: "统一建模语言（Unified Modeling Language）", link: "/md/mbp/standard/uml.html"},
+                    {text: "常用颜色搭配", link: "/md/mbp/standard/color.html"}
                 ]
             },
             {
@@ -24,7 +25,8 @@ const mbpSide = {
                 children: [
                     {text: "01 - 终端", link: "/md/mbp/software/01-terminal.html"},
                     {text: "02 - idea", link: "/md/mbp/software/02-idea.html"},
-                    {text: "03 - vscode", link: "/md/mbp/software/03-vscode.html"}
+                    {text: "03 - vscode", link: "/md/mbp/software/03-vscode.html"},
+                    {text: "03 - Obsidian", link: "/md/mbp/software/04-obsidian.html"}
                 ]
             },
             {
