@@ -10,8 +10,8 @@
 </template>
 
 <script>
-import PageSidebarTocLink from '@theme/components/PageSidebarTocLink.vue'
-import DropdownTransition from '@theme/components/DropdownTransition.vue'
+import PageSidebarTocLink from 'PageSidebarTocLink.vue'
+import DropdownTransition from 'DropdownTransition.vue'
 import { isActive } from '../util'
 
 export default {

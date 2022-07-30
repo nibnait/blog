@@ -64,11 +64,11 @@
 </template>
 
 <script>
-import Home from '@theme/components/Home.vue'
-import Navbar from '@theme/components/Navbar.vue'
-import Page from '@theme/components/Page.vue'
-import Sidebar from '@theme/components/Sidebar.vue'
-import PageSidebar from '@theme/components/PageSidebar.vue'
+import Home from 'Home.vue'
+import Navbar from 'Navbar.vue'
+import Page from 'Page.vue'
+import Sidebar from 'Sidebar.vue'
+import PageSidebar from 'PageSidebar.vue'
 import { resolveSidebarItems, resolveHeaders } from '../util'
 
 export default {

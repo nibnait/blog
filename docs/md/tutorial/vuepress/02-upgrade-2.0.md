@@ -35,4 +35,5 @@ tag: [tutorial, vuepress]
 
 ## v2.0 的一些配置修改
 navbar: <https://v2.vuepress.vuejs.org/zh/reference/default-theme/config.html#navbar>  
-sidebar: <https://v2.vuepress.vuejs.org/zh/reference/default-theme/config.html#sidebar>
+sidebar: <https://v2.vuepress.vuejs.org/zh/reference/default-theme/config.html#sidebar>  
+主题继承: <https://v2.vuepress.vuejs.org/zh/reference/default-theme/extending.html>  
