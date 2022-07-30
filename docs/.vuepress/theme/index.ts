@@ -9,6 +9,8 @@ export const localTheme = (options: DefaultThemeOptions): Theme => {
         extends: defaultTheme(options),
         layouts: {
             Layout: path.resolve(__dirname, 'layouts/Layout.vue'),
+        },
+        alias: {
         }
     }
 }
