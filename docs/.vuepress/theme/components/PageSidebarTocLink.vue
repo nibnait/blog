@@ -108,12 +108,8 @@ a.toc-sidebar-link
   line-height 1
   width: 100%
   box-sizing: border-box
-  &:hover
-    color $accentColor
   &.active
     font-weight 600
-    color $accentColor
-    border-left-color $accentColor
   .toc-sidebar-sub-headers &
     padding-top 0.25rem
     padding-bottom 0.25rem

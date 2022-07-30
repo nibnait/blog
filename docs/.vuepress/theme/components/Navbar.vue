@@ -20,36 +20,18 @@
       >{{ $siteTitle }}</span>
     </RouterLink>
 
-    <div
-      class="links"
-      :style="linksWrapMaxWidth ? {
-        'max-width': linksWrapMaxWidth + 'px'
-      } : {}"
-    >
-      <AlgoliaSearchBox
-        v-if="isAlgoliaSearch"
-        :options="algolia"
-      />
-      <SearchBox v-else-if="$site.themeConfig.search !== false && $page.frontmatter.search !== false" />
-      <NavLinks class="can-hide" />
-    </div>
   </header>
 </template>
 
 <script>
-import AlgoliaSearchBox from 'AlgoliaSearchBox'
-import SearchBox from '@SearchBox'
-import SidebarButton from 'SidebarButton.vue'
-import NavLinks from 'NavLinks.vue'
+import NavLink from '@theme/components/NavLink.vue'
 
 export default {
   name: 'Navbar',
 
   components: {
-    SidebarButton,
-    NavLinks,
-    SearchBox,
-    AlgoliaSearchBox
+    NavLink,
+    SearchBox
   },
 
   data () {

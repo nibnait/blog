@@ -34,9 +34,9 @@
 </template>
 
 <script>
-import DropdownLink from 'DropdownLink.vue'
+import DropdownLink from '@theme/components/DropdownLink.vue'
 import { resolveNavLinkItem } from '../util'
-import NavLink from 'NavLink.vue'
+import NavLink from '@theme/components/NavLink.vue'
 
 export default {
   components: { NavLink, DropdownLink },
@@ -123,8 +123,6 @@ export default {
   a
     line-height 1.4rem
     color inherit
-    &:hover, &.router-link-active
-      color $accentColor
   .nav-item
     position relative
     display inline-block
@@ -148,10 +146,9 @@ export default {
 @media (min-width: $MQMobile)
   .nav-links a
     &:hover, &.router-link-active
-      color $accentColor
       font-weight bolder
   .nav-item > a:not(.external)
     &:hover, &.router-link-active
       margin-bottom -2px
-      border-bottom 2px solid lighten($accentColor, 8%)
+      border-bottom 2px solid
 </style>

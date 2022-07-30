@@ -1,78 +1,68 @@
+<script setup>
+import ParentLayout from '@vuepress/theme-default/lib/client/layouts/Layout.vue'
+</script>
+
 <template>
+  <ParentLayout>
+    <template #page-bottom>
+      <div align="center">
+        <div style="font-size: 15px;">
+          <a href="https://beian.miit.gov.cn/#/Integrated/index" target="_blank">沪ICP备2022014340号</a> | GPL Licensed | Copyright © 2022 NibNait. All rights reserved.
+        </div>
+      </div>
+    </template>
+  </ParentLayout>
   <div
-    class="theme-container"
-    :class="pageClasses"
-    @touchstart="onTouchStart"
-    @touchend="onTouchEnd"
+      class="theme-container"
+      :class="pageClasses"
+      @touchstart="onTouchStart"
+      @touchend="onTouchEnd"
   >
     <Navbar
-      v-if="shouldShowNavbar"
-      @toggle-sidebar="toggleSidebar"
+        v-if="shouldShowNavbar"
+        @toggle-sidebar="toggleSidebar"
     />
 
     <div
-      class="sidebar-mask"
-      @click="toggleSidebar(false)"
+        class="sidebar-mask"
+        @click="toggleSidebar(false)"
     ></div>
-
-    <Sidebar
-      :items="sidebarItems"
-      @toggle-sidebar="toggleSidebar"
-    >
-      <slot
-        name="sidebar-top"
-        #top
-      />
-      <slot
-        name="sidebar-bottom"
-        #bottom
-      />
-    </Sidebar>
 
     <Home v-if="$page.frontmatter.home"/>
 
     <Page
-      v-else
-      :sidebar-items="sidebarItems"
+        v-else
+        :sidebar-items="sidebarItems"
     >
-      <slot
-        name="page-top"
-        #top
-      />
-      <slot
-        name="page-bottom"
-        #bottom
-      />
+
     </Page>
 
     <PageSidebar
-       v-if="shouldShowPageSidebar"
-       :page-sidebar-items="pageSidebarItems"
-       :sidebar-items="sidebarItems"
-       @toggle-sidebar-force="toggleSidebarForce"
+        v-if="shouldShowPageSidebar"
+        :page-sidebar-items="pageSidebarItems"
+        :sidebar-items="sidebarItems"
+        @toggle-sidebar-force="toggleSidebarForce"
     >
-      <slot
-        name="page-sidebar-top"
-        #top
-      />
-      <slot
-        name="page-sidebar-bottom"
-        #bottom
-      />
+
     </PageSidebar>
   </div>
 </template>
 
+<style lang="css">
+.my-footer {
+  text-align: center;
+}
+</style>
+
 <script>
-import Home from 'Home.vue'
-import Navbar from 'Navbar.vue'
-import Page from 'Page.vue'
-import Sidebar from 'Sidebar.vue'
-import PageSidebar from 'PageSidebar.vue'
+import Home from '@theme/components/Home.vue'
+import Navbar from '@theme/components/Navbar.vue'
+import Page from '@theme/components/Page.vue'
+import PageSidebar from '@theme/components/PageSidebar.vue'
 import { resolveSidebarItems, resolveHeaders } from '../util'
 
 export default {
-  components: { Home, Page, Sidebar, Navbar, PageSidebar },
+  components: { Home, Page, Navbar, PageSidebar },
 
   data () {
     return {
@@ -86,49 +76,49 @@ export default {
       const { themeConfig } = this.$site
       const { frontmatter } = this.$page
       if (
-        frontmatter.navbar === false
-        || themeConfig.navbar === false) {
+          frontmatter.navbar === false
+          || themeConfig.navbar === false) {
         return false
       }
       return (
-        this.$title
-        || themeConfig.logo
-        || themeConfig.repo
-        || themeConfig.nav
-        || this.$themeLocaleConfig.nav
+          this.$title
+          || themeConfig.logo
+          || themeConfig.repo
+          || themeConfig.nav
+          || this.$themeLocaleConfig.nav
       )
     },
 
     shouldShowSidebar () {
       const { frontmatter } = this.$page
       return (
-        !frontmatter.home
-        && frontmatter.sidebar !== false
-        && this.sidebarItems.length
+          !frontmatter.home
+          && frontmatter.sidebar !== false
+          && this.sidebarItems.length
       )
     },
 
     shouldShowPageSidebar (){
-        const { frontmatter } = this.$page
-        
-        return (//false&&
-            !frontmatter.home
-            && frontmatter.sidebar !== false
-            && this.pageSidebarItems.length
-        )
+      const { frontmatter } = this.$page
+
+      return (//false&&
+          !frontmatter.home
+          && frontmatter.sidebar !== false
+          && this.pageSidebarItems.length
+      )
     },
 
     sidebarItems () {
       return resolveSidebarItems(
-        this.$page,
-        this.$page.regularPath,
-        this.$site,
-        this.$localePath
+          this.$page,
+          this.$page.regularPath,
+          this.$site,
+          this.$localePath
       )
     },
 
     pageSidebarItems () {
-        return resolveHeaders(this.$page)
+      return resolveHeaders(this.$page)
     },
 
     pageClasses () {

@@ -28,7 +28,6 @@
 </template>
 
 <script>
-import debounce from 'lodash.debounce'
 export default {
   name: 'BackToTop',
   props: {
@@ -49,9 +48,6 @@ export default {
   },
   mounted () {
     this.scrollTop = this.getScrollTop()
-    window.addEventListener('scroll', debounce(() => {
-      this.scrollTop = this.getScrollTop()
-    }, 100))
   },
   methods: {
     getScrollTop () {

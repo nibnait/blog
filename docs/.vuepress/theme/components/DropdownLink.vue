@@ -62,8 +62,8 @@
 </template>
 
 <script>
-import NavLink from 'NavLink.vue'
-import DropdownTransition from 'DropdownTransition.vue'
+import NavLink from '@theme/components/NavLink.vue'
+import DropdownTransition from '@theme/components/DropdownTransition.vue'
 import last from 'lodash/last'
 
 export default {
@@ -151,15 +151,12 @@ export default {
         font-weight 400
         margin-bottom 0
         padding 0 1.5rem 0 1.25rem
-        &:hover
-          color $accentColor
         &.router-link-active
-          color $accentColor
           &::after
             content ""
             width 0
             height 0
-            border-left 5px solid $accentColor
+            border-left 5px solid
             border-top 3px solid transparent
             border-bottom 3px solid transparent
             position absolute
@@ -177,8 +174,6 @@ export default {
     .dropdown-title
       font-weight 600
       font-size inherit
-      &:hover
-        color $accentColor
     .nav-dropdown
       transition height .1s ease-out
       overflow hidden

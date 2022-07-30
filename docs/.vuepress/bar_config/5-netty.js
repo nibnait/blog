@@ -5,7 +5,7 @@ const nettySide = {
             {
                 text: "基础入门篇",
                 children: [
-                    "netty.md"
+                    "netty.html"
                 ]
             }
         ]

@@ -78,8 +78,8 @@
 </template>
 
 <script>
-import PageSidebarToc from 'PageSidebarToc.vue'
-import PageSidebarBackToTop from 'PageSidebarBackToTop.vue'
+import PageSidebarToc from '@theme/components/PageSidebarToc.vue'
+import PageSidebarBackToTop from '@theme/components/PageSidebarBackToTop.vue'
 import { resolvePage } from '../util'
 
 export default {
