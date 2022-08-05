@@ -1,9 +1,9 @@
 ---
 category: mbp
-title: 我的 Windows OS
+title: 初始化我的 Windows OS
 tag: [mbp, win]
 ---
-# 我的 Windows OS
+# 初始化我的 Windows OS
 
 git 终端  [https://git-scm.com/download](https://git-scm.com/download)
 tabby     [https://tabby.sh/](https://tabby.sh/)

@@ -88,8 +88,12 @@ const headNavbar = {
                         "link": "/md/mbp/standard/common-git.html"
                     },
                     {
+                        "text": "一些推荐",
+                        "link": "/md/mbp/recommend/1-web.html"
+                    },
+                    {
                         "text": "软件配置存档",
-                        "link": "/md/mbp/software/01-terminal.html"
+                        "link": "/md/mbp/backup/software/01-terminal.html"
                     },
                     {
                         "text": "各种教程",

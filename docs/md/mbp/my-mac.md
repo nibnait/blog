@@ -1,48 +1,20 @@
 ---
-title: 我的 MacBook Pro
+title: 初始化我的 MacBook Pro
 ---
-# 我的 MacBook Pro
+# 初始化我的 MacBook Pro 
 
 ## 触发角
 
 ## App Store
-
-- 万年历
-- Manico
 - iSaver
-
 /System/Library/Screen Savers
 
 ## 百度云
-
-- [Spectacle+1.2](https://www.spectacleapp.com/)
+- Spectacle+1.2
 - Alfred youdao
-- [typora](https://www.typora.io/#download)
-- [Snipaste](https://zh.snipaste.com/)
-- [Kap](https://getkap.co/)
 - AirServer
 
-## 去官网下载最新版
-
-| 简介                     | 官网地址                                                                                                                                                                     |
-| ------------------------ | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| 搜狗输入法               | [https://pinyin.sogou.com/mac/](https://pinyin.sogou.com/mac/)                                                                                                               |
-| 百度网盘                 | https://pan.baidu.com/                                                                                                                                                       |
-| Surge                    | [http://nssurge.com/](http://nssurge.com/8)                                                                                                                                  |
-| 磁盘管理                 | [https://daisydiskapp.com/#](https://daisydiskapp.com/#)                                                                                                                     |
-| clean my mac             | [http://www.mycleanmymac.com/xiazai.html](http://www.mycleanmymac.com/xiazai.html)                                                                                           |
-| Paragon NTFS for Mac     | https://my.paragon-software.com/                                                                                                                                             |
-| 电池管理                 | [https://apphousekitchen.com/](https://apphousekitchen.com/)                                                                                                                 |
-| FileZilla（FTP）         | [https://filezilla-project.org/download.php](https://filezilla-project.org/download.php)                                                                                     |
-| uTools                   | [https://u.tools/](https://u.tools/)                                                                                                                                         |
-| Logitech Options         | [https://www.logitech.com.cn/zh-cn/product/options](https://www.logitech.com.cn/zh-cn/product/options)                                                                       |
-| ezip                     | [https://ezip.awehunt.com/](https://ezip.awehunt.com/)                                                                                                                       |
-| Karabiner，键盘 key 映射 | [https://karabiner-elements.pqrs.org/](https://karabiner-elements.pqrs.org/)<br />[https://github.com/nibnait/karabiner-config](https://github.com/nibnait/karabiner-config) |
-| XCode                    | [https://developer.apple.com/download/more/?=xcode](https://developer.apple.com/download/more/?=xcode)                                                                       |
-| Sublime Text             | [https://www.sublimetext.com](https://www.sublimetext.com) <br/>[https://packagecontrol.io/installation](https://packagecontrol.io/installation)                             |
-| Obsidian                 | <https://obsidian.md/>                                                                                                                                                       |
-| Macs Fan Control Pro     | <https://crystalidea.com/macs-fan-control>                                                                                                                                   |
-| foobar2000     | <https://www.foobar2000.org/download>                                                                                                                                   |
+[[3-software]]
 
 ```
 ctrl + `
