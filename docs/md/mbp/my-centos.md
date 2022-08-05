@@ -1,9 +1,9 @@
 ---
 category: Linux
-title: 我的 Centos
+title: 初始化我的 Centos
 tag: [Linux, Centos]
 ---
-# 我的 Centos
+# 初始化我的 Centos
 
 ## 更改 ssh 端口
 

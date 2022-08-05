@@ -4,9 +4,10 @@ title: 初始化我的 MacBook Pro
 # 初始化我的 MacBook Pro 
 
 ## 触发角
+![](https://img.tianbin.cc/mbp/hot_corners.jpg)
 
 ## App Store
-- iSaver
+- iSaver  
 /System/Library/Screen Savers
 
 ## 百度云
@@ -16,6 +17,7 @@ title: 初始化我的 MacBook Pro
 
 [[3-software]]
 
+### Sublime Text
 ```
 ctrl + `
 
@@ -35,27 +37,31 @@ Preferences —> Key Bindings：
  ]
 ```
 
-#### Prety Json Manual Installation [https://packagecontrol.io/packages/Pretty JSON](https://packagecontrol.io/packages/Pretty%20JSON)
+#### Prety Json Manual Installation 
+[https://packagecontrol.io/packages/Pretty JSON](https://packagecontrol.io/packages/Pretty%20JSON)
 
 - `cd <Packages directory>` (MacOS: `~/Library/Application\ Support/Sublime\ Text/Packages`)
 - `git clone https://github.com/dzhibas/SublimePrettyJson.git "Pretty JSON"`
 
-### [maven](https://maven.apache.org/download.cgi)
+## maven
+<https://maven.apache.org/download.cgi>
 
-### [gradle](https://gradle.org/releases/)
+## gradle
+<https://gradle.org/releases/>
 
-### [MySQL](https://dev.mysql.com/downloads/mysql/5.7.html)
+## MySQL
+<https://dev.mysql.com/downloads/mysql/5.7.html>
 
 ```
 mysql -u root -p
 set PASSWORD =PASSWORD('root');
 ```
 
-### git 初始化
+## git 初始化
 
-ssh-keygen -t rsa -C "[w@tianbin.org](mailto:w@tianbin.org)"
-git config --global user.name nibnait
-git config --global user.email [w@tianbin.org](mailto:w@tianbin.org)
+ssh-keygen -t rsa -C "[w@tianbin.cc](mailto:w@tianbin.org)"  
+git config --global user.name nibnait  
+git config --global user.email [w@tianbin.cc](mailto:w@tianbin.org)
 
 git config --global --edit
 
@@ -81,7 +87,7 @@ Format->Bulleted List     cmd+shift+b
 Format->Numbered List     cmd_shift+n
 ```
 
-### Chrome插件
+## Chrome插件
 
 Web前端助手（FeHelper）- crx文件安装方法
 安装方法
@@ -91,7 +97,7 @@ Web前端助手（FeHelper）- crx文件安装方法
 1. 右上角开启`开发者模式`
 1. 拖拽crx到当前页面，完成安装
 
-# 升级 MacOs Mojave 后的兼容问题解决
+## 升级 MacOs Mojave 后的兼容问题解决
 
 [https://zhuzhengyuan.xyz/2018/11/23/the-compatibility-issues-in-macos-mojave/](https://zhuzhengyuan.xyz/2018/11/23/the-compatibility-issues-in-macos-mojave/)
 

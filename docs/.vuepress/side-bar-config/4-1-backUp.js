@@ -14,8 +14,7 @@ const backUpSide = {
             {
                 text: "一些配置备份",
                 children: [
-                    {text: "常用命令", link: "/md/mbp/backup/mbp-common-cmd.html"},
-                    {text: "屏保代码备份", link: "https://github.com/nibnait/algorithms/blob/master/src/main/java/cc/tianbin/backup/html/README.md"}
+                    {text: "常用命令", link: "/md/mbp/backup/mbp-common-cmd.html"}
                 ]
             }
         ]

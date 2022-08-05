@@ -16,7 +16,8 @@ const mbpSide = {
                 text: "我的mbp",
                 children: [
                     {text: "我的 MacBook Pro", link: "/md/mbp/my-mac.html"},
-                    {text: "我的 Windows OS", link: "/md/mbp/my-win.html"}
+                    {text: "我的 Windows OS", link: "/md/mbp/my-win.html"},
+                    {text: "我的 CentOS", link: "/md/mbp/my-centos.html"},
                 ]
             },
             {

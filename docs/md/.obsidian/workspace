@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "mbp/recommend/3-software.md",
+            "file": "mbp/backup/mbp-common-cmd.md",
             "mode": "source",
             "backlinks": true,
             "source": false
@@ -26,7 +26,7 @@
       {
         "id": "e1f7d6bddf32b621",
         "type": "tabs",
-        "dimension": 34.765998089780325,
+        "dimension": 42.35181644359465,
         "children": [
           {
             "id": "617680ba37733fcd",
@@ -34,7 +34,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "mbp/recommend/3-software.md"
+                "file": "mbp/backup/mbp-common-cmd.md"
               }
             }
           }
@@ -43,7 +43,7 @@
       {
         "id": "76523cf610c2935f",
         "type": "tabs",
-        "dimension": 65.23400191021967,
+        "dimension": 57.64818355640535,
         "children": [
           {
             "id": "d9054f1680845f41",
@@ -97,7 +97,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "mbp/recommend/3-software.md",
+                "file": "mbp/backup/mbp-common-cmd.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -114,7 +114,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "mbp/recommend/3-software.md",
+                "file": "mbp/backup/mbp-common-cmd.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -164,15 +164,15 @@
   },
   "active": "b443f2d87335628f",
   "lastOpenFiles": [
-    "mbp/recommend/3-software.md",
     "mbp/my-mac.md",
+    "linux/cpu.md",
+    "linux/memory.md",
+    "linux/linux.md",
+    "mbp/my-centos.md",
+    "mbp/recommend/3-software.md",
     "mbp/software/04-obsidian.md",
     "algorithm/algorithm.md",
     "mbp/standard/color.md",
-    "Untitled.md",
-    "algorithm/02-basic/class02.md",
-    "algorithm/02-basic/class04.md",
-    "guide.md",
-    "mbp/website/2-github-star.md"
+    "Untitled.md"
   ]
 }

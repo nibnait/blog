@@ -44,8 +44,10 @@ git remote set-url origin [https://github.com/Homebrew/homebrew-core.git](https:
 
 ## 一些快捷键
 
-显示隐藏文件：`command + shift + .`
-彻底删除：`command + delete`
+| 操作         | 快捷键                |
+| ------------ | --------------------- |
+| 显示隐藏文件 | `command + shift + .` |
+| 彻底删除     | `command + delete`    |
 
 ## 复制网页
 document.body.contentEditable=true
@@ -55,5 +57,6 @@ document.body.contentEditable=true
 gradle build --refresh-dependencies
 
 gradle dependencies > ~/Desktop/1.txt
+
 mvn dependency:tree > ~/Desktop/1.txt
 ```
