@@ -1,4 +1,4 @@
-// 算法
+// 各种教程
 const tutorialSide = {
     getSidebar() {
         return [

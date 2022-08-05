@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "algorithm/algorithm.md",
+            "file": "mbp/mbp-backup/iScreenSaver-picture-swiper.md",
             "mode": "source",
             "backlinks": true,
             "source": false
@@ -34,7 +34,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "algorithm/algorithm.md"
+                "file": "mbp/mbp-backup/iScreenSaver-picture-swiper.md"
               }
             }
           }
@@ -97,7 +97,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "algorithm/algorithm.md",
+                "file": "mbp/mbp-backup/iScreenSaver-picture-swiper.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -114,7 +114,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "algorithm/algorithm.md",
+                "file": "mbp/mbp-backup/iScreenSaver-picture-swiper.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -164,9 +164,9 @@
   },
   "active": "a5beaaf0eb1befb5",
   "lastOpenFiles": [
-    "mbp/standard/color.md",
-    "algorithm/algorithm.md",
     "mbp/software/04-obsidian.md",
+    "algorithm/algorithm.md",
+    "mbp/standard/color.md",
     "Untitled.md",
     "algorithm/02-basic/class02.md",
     "algorithm/02-basic/class04.md",

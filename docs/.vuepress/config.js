@@ -1,13 +1,13 @@
 const { localTheme } = require('./theme')
 
 const rootPath = "/Users/nibnait/blog/docs/.vuepress"
-const headNavBar = require(rootPath + '/bar_config/headNavbar.js');
-const algorithmSide = require(rootPath + '/bar_config/1-algorithm.js');
-const javaSide = require(rootPath + '/bar_config/2-java.js');
-const linuxSide = require(rootPath + '/bar_config/3-linux.js');
-const mbpSide = require(rootPath + '/bar_config/4-mbp.js');
-const nettySide = require(rootPath + '/bar_config/5-netty.js');
-const tutorialSide = require(rootPath + '/bar_config/6-tutorial.js');
+const headNavBar = require(rootPath + '/side-bar-config/headNavbar.js');
+const algorithmSide = require(rootPath + '/side-bar-config/1-algorithm.js');
+const javaSide = require(rootPath + '/side-bar-config/2-java.js');
+const linuxSide = require(rootPath + '/side-bar-config/3-linux.js');
+const mbpSide = require(rootPath + '/side-bar-config/4-0-mbp.js');
+const nettySide = require(rootPath + '/side-bar-config/5-netty.js');
+const tutorialSide = require(rootPath + '/side-bar-config/6-tutorial.js');
 
 module.exports = {
     title: "NibNait | tianbin",

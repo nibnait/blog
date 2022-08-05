@@ -50,3 +50,10 @@ git remote set-url origin [https://github.com/Homebrew/homebrew-core.git](https:
 ## 复制网页
 document.body.contentEditable=true
 
+## 依赖树 
+```shell
+gradle build --refresh-dependencies
+
+gradle dependencies > ~/Desktop/1.txt
+mvn dependency:tree > ~/Desktop/1.txt
+```

@@ -19,6 +19,7 @@ title: 我的 MacBook Pro
 - Alfred youdao
 - [typora](https://www.typora.io/#download)
 - [Snipaste](https://zh.snipaste.com/)
+- [Kap](https://getkap.co/)
 - AirServer
 
 ## 去官网下载最新版
