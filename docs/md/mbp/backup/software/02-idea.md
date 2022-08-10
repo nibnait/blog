@@ -43,12 +43,13 @@ tag: [software, idea]
 
 # 一些插件
 
-code with me 删掉
-Lombok
-Maven Helper
-PlantUML integration
+ - code with me 删掉
+ - Lombok
+ - Maven Helper
+ - PlantUML integration
 
-# [idea](https://www.jetbrains.com/idea/) 历史版本
+# idea 历史版本
+<https://www.jetbrains.com/idea/>
 
 历史版本：[https://www.jetbrains.com/idea/download/other.html](https://www.jetbrains.com/idea/download/other.html)
 

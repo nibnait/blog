@@ -98,6 +98,10 @@ const headNavbar = {
                     {
                         "text": "各种教程",
                         "link": "/md/tutorial/tutorial.html"
+                    },
+                    {
+                        "text": "屏保备份",
+                        "link": "/md/mbp/backup/screen-saver.html"
                     }
                 ]
             },

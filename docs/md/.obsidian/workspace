@@ -4,12 +4,12 @@
     "type": "split",
     "children": [
       {
-        "id": "b443f2d87335628f",
+        "id": "cf1fc49fce08f86b",
         "type": "leaf",
         "state": {
           "type": "markdown",
           "state": {
-            "file": "mbp/backup/mbp-common-cmd.md",
+            "file": "mbp/recommend/1-web.md",
             "mode": "source",
             "backlinks": true,
             "source": false
@@ -34,7 +34,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "mbp/backup/mbp-common-cmd.md"
+                "file": "mbp/recommend/1-web.md"
               }
             }
           }
@@ -97,7 +97,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "mbp/backup/mbp-common-cmd.md",
+                "file": "mbp/recommend/1-web.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -114,7 +114,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "mbp/backup/mbp-common-cmd.md",
+                "file": "mbp/recommend/1-web.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -162,17 +162,17 @@
     "width": 681.5,
     "collapsed": true
   },
-  "active": "b443f2d87335628f",
+  "active": "cf1fc49fce08f86b",
   "lastOpenFiles": [
+    "mbp/recommend/2-github-star.md",
+    "music/README.md",
+    "mbp/backup/software/02-idea.md",
+    "mbp/backup/mbp-common-cmd.md",
     "mbp/my-mac.md",
     "linux/cpu.md",
     "linux/memory.md",
     "linux/linux.md",
     "mbp/my-centos.md",
-    "mbp/recommend/3-software.md",
-    "mbp/software/04-obsidian.md",
-    "algorithm/algorithm.md",
-    "mbp/standard/color.md",
-    "Untitled.md"
+    "mbp/recommend/3-software.md"
   ]
 }

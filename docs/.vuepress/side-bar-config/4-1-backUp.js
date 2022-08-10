@@ -14,7 +14,8 @@ const backUpSide = {
             {
                 text: "一些配置备份",
                 children: [
-                    {text: "常用命令", link: "/md/mbp/backup/mbp-common-cmd.html"}
+                    {text: "常用命令", link: "/md/mbp/backup/mbp-common-cmd.html"},
+                    {text: "屏保备份", link: "/md/mbp/backup/screen-saver.html"}
                 ]
             }
         ]

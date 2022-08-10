@@ -14,12 +14,12 @@ features:
 
 ---
 ## 我的mbp
-推荐一些[好玩的网站](https://tianbin.cc/md/mbp/website/1-web.html)，[github 好玩的项目](https://tianbin.cc/md/mbp/website/2-github-star.html)  
-归档一些我自己的[软件配置](https://tianbin.cc/md/mbp/software/01-terminal.html)，一些[研发规范](https://tianbin.cc/md/mbp/standard/git-standard.html)
+推荐一些[好玩的网站](https://tianbin.cc/md/mbp/recommend/1-web.html)，[github 好玩的项目](https://tianbin.cc/md/mbp/recommend/2-github-star.html)  
+归档一些我自己的[软件配置](https://tianbin.cc/md/mbp/backup/software/01-terminal.html)，一些[研发规范](https://tianbin.cc/md/mbp/standard/git-standard.html)
 
 ## 算法
 没事写写，把思路留下来  
-<https://github.com/nibnait/algorithms/tree/master/src/main/java/algorithm_practice/algorithmzuo>
+[https://github.com/nibnait/algorithms](https://github.com/nibnait/algorithms/tree/master/src/main/java/algorithm_practice/algorithmzuo)
 
 ## Java
  - 设计模式      [design-pattern-demo](https://github.com/nibnait/design-pattern-demo)
