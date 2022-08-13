@@ -8,7 +8,8 @@ const backUpSide = {
                     {text: "01 - 终端", link: "/md/mbp/backup/software/01-terminal.html"},
                     {text: "02 - idea", link: "/md/mbp/backup/software/02-idea.html"},
                     {text: "03 - vscode", link: "/md/mbp/backup/software/03-vscode.html"},
-                    {text: "03 - Obsidian", link: "/md/mbp/backup/software/04-obsidian.html"}
+                    {text: "04 - Obsidian", link: "/md/mbp/backup/software/04-obsidian.html"},
+                    {text: "05 - Fleet", link: "/md/mbp/backup/software/05-Fleet.html"}
                 ]
             },
             {

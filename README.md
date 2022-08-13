@@ -6,3 +6,6 @@
 > yarn add -D vuepress@next
 
 > yarn install
+
+> yarn docs:dev
+> yarn docs:build

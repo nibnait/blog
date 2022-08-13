@@ -4,12 +4,12 @@
     "type": "split",
     "children": [
       {
-        "id": "cf1fc49fce08f86b",
+        "id": "99a52c1f7f069438",
         "type": "leaf",
         "state": {
           "type": "markdown",
           "state": {
-            "file": "mbp/recommend/1-web.md",
+            "file": "mbp/backup/software/05-Fleet.md",
             "mode": "source",
             "backlinks": true,
             "source": false
@@ -34,7 +34,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "mbp/recommend/1-web.md"
+                "file": "mbp/backup/software/05-Fleet.md"
               }
             }
           }
@@ -80,7 +80,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 367.5
+    "width": 401.5,
+    "collapsed": true
   },
   "right": {
     "id": "d25978a0ea1f35b5",
@@ -97,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "mbp/recommend/1-web.md",
+                "file": "mbp/backup/software/05-Fleet.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -114,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "mbp/recommend/1-web.md",
+                "file": "mbp/backup/software/05-Fleet.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -137,7 +138,7 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       },
       {
         "id": "8719996879ff8351",
@@ -162,17 +163,17 @@
     "width": 681.5,
     "collapsed": true
   },
-  "active": "cf1fc49fce08f86b",
+  "active": "99a52c1f7f069438",
   "lastOpenFiles": [
+    "mbp/backup/software/05-Fleet.md",
+    "mbp/backup/software/04-obsidian.md",
+    "mbp/standard/common-git.md",
+    "mbp/recommend/1-web.md",
     "mbp/recommend/2-github-star.md",
     "music/README.md",
     "mbp/backup/software/02-idea.md",
     "mbp/backup/mbp-common-cmd.md",
     "mbp/my-mac.md",
-    "linux/cpu.md",
-    "linux/memory.md",
-    "linux/linux.md",
-    "mbp/my-centos.md",
-    "mbp/recommend/3-software.md"
+    "linux/cpu.md"
   ]
 }

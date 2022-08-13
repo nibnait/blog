@@ -6,8 +6,8 @@ const backUpSide = require(rootPath + '/side-bar-config/4-1-backUp.js');
 const mbpSide = {
     getSidebar() {
         return this.getMbpSidebar()
-            .concat(backUpSide.getSidebar())
-            .concat(tutorialSide.getSidebar())
+//            .concat(backUpSide.getSidebar())
+//            .concat(tutorialSide.getSidebar())
             ;
     },
     getMbpSidebar() {

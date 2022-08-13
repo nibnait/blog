@@ -33,28 +33,30 @@ commit-id 为要删除的commit的下一个commit号
 5.git log查看
 ```
 
+## git pull --rebase
+背景：本地 commit，然后 git push 时 发下 远程仓库最新的代码，已经被别人 commit push 过了。
+此时，如果直接 git pull，默认会将本地代码与远程代码 进行 merge 操作，产生一个 新的 没有必要存在的 commit。  
+原理：先将远程的所有 commit 拉下来，然后再讲你本地最新的 commit 放到最后。
+
 ## git reset
+<http://jartto.wang/2018/12/11/git-rebase/> 
 
-http://jartto.wang/2018/12/11/git-rebase/ 回滚到远程分支的最新版本：
-
+回滚到远程分支的最新版本：
 ```
 git reset --head origin/master
 ```
 
 回滚到某次commit（并保留当前暂存区的所有修改）
-
 ```
 git reset 7bfab4e
 ```
 
 回滚到上一次commit状态，并放弃当前暂存区的所有修改
-
 ```
 git reset --hard HEAD
 ```
 
 ## git remote
-
 [Git - 远程仓库的使用](https://git-scm.com/book/zh/v2/Git-基础-远程仓库的使用)
 
 ```
@@ -64,7 +66,6 @@ git remote add origin git@github.com:nibnait/algorithms.git
 ```
 
 ## git tag
-
 [Git 基础 - 打标签](https://git-scm.com/book/zh/v2/Git-基础-打标签)
 
 ```

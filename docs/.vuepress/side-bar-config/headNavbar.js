@@ -92,12 +92,12 @@ const headNavbar = {
                         "link": "/md/mbp/recommend/1-web.html"
                     },
                     {
-                        "text": "软件配置存档",
-                        "link": "/md/mbp/backup/software/01-terminal.html"
-                    },
-                    {
                         "text": "各种教程",
                         "link": "/md/tutorial/tutorial.html"
+                    },
+                    {
+                        "text": "软件配置存档",
+                        "link": "/md/mbp/backup/software/01-terminal.html"
                     },
                     {
                         "text": "屏保备份",

@@ -39,3 +39,4 @@ build/
 /docs/.vuepress/.cache/
 
 yarn.lock
+package-lock.json
