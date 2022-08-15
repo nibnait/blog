@@ -5,22 +5,22 @@ tag: [software, terminal]
 ---
 # 01 - 终端
 
-warp
+## warp
 
 下载地址 [https://www.warp.dev/](https://www.warp.dev/)
 
 使用文档 [https://docs.warp.dev/getting-started/getting-started-with-warp](https://docs.warp.dev/getting-started/getting-started-with-warp)
 
-# [https://iterm2.com/](https://iterm2.com/)
+<s>[https://iterm2.com/](https://iterm2.com/)</s>
 
-#### 安装HomeBrew
+### 安装HomeBrew
 
 ```
  xcode-select --install
  ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
 ```
 
-#### 安装Oh My Zsh
+### 安装Oh My Zsh
 
 ```
 brew install git
@@ -58,21 +58,32 @@ alias mybatis="cd /Users/nibnait/bilibili/mybatis-generator-gui && java -jar myb
 alias sshcentos1="sshpass -p \' ssh -p 22 nibnait@10.211.55.12 -t 'cd /home/nibnait/Desktop/redis-1.x/redis-1.3.6; bash --login'"
 alias vd='vuepress dev docs'
 alias vb='vuepress build docs'
+alias yd='yarn docs:dev'
+alias yb='yarn docs:build'
 
 export GO_HOME=/usr/loacl/go
 export MAVEN_HOME=/Users/nibnait/apache-maven-3.6.3
 export JAVA_HOME=/Library/Java/JavaVirtualMachines/jdk1.8.0_231.jdk/Contents/Home
 export NVM_DIR="$HOME/.nvm"
-export PATH=$PATH:$MAVEN_HOME/bin:/usr/local/mysql/bin:$JAVA_HOME/bin:$GO_HOME/bin
+export NODE_HOME=/Users/nibnait/.nvm/versions/node/v14.15.5
+[ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
+[ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
+export PATH=$PATH:$MAVEN_HOME/bin:/usr/local/mysql/bin:$JAVA_HOME/bin:$GO_HOME/bin:$JAVA_HOME/lib/sa-jdi.jar
+export LC_ALL=en_US.UTF-8
+export LANG=en_US.UTF-8
 export GOPROXY=https://goproxy.io,direct
 export GO111MODULE=on
+
+export NVM_DIR="$HOME/.nvm"
+  [ -s "/usr/local/opt/nvm/nvm.sh" ] && . "/usr/local/opt/nvm/nvm.sh"  # This loads nvm
+  [ -s "/usr/local/opt/nvm/etc/bash_completion.d/nvm" ] && . "/usr/local/opt/nvm/etc/bash_completion.d/nvm"  # This loads nvm bash_completion
 
 source ~/.zshrc
 ```
 
-# Linux系统配置
+## Linux系统配置
 
-## zsh
+### zsh
 
 ```shell
 # centos
@@ -81,7 +92,7 @@ sudo yum -y install zsh
 sudo apt -y install zsh
 ```
 
-## Oh My Zsh
+### Oh My Zsh
 
 ```shell
 sudo yum install git
@@ -107,7 +118,7 @@ chsh -s /bin/zsh
 # 命令切换到zsh就行。
 ```
 
-# sshpass
+## sshpass
 
 ```shell
 wget http://sourceforge.net/projects/sshpass/files/sshpass/1.05/sshpass-1.05.tar.gz
