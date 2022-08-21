@@ -27,6 +27,7 @@ tag: [website]
 | 图片压缩                            | <https://squoosh.app>                                    |
 | 多个地点 ping                       | <https://ping.chinaz.com>                                |
 | json 转 excel                       | <https://wejson.cn/json2excel/>                          |
+| json 转 java                        | <https://www.bejson.com/json2javapojo/new/>              |
 | excel 转 json                       | <https://uutool.cn/excel2json/>                          |
 | 高架夜间封路_上海市道路运输管理局   | <http://dlysj.sh.gov.cn/gjyjfl/index.html>               |
 | scss 转 css                         | <https://www.sassmeister.com/>                           |

@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "mbp/standard/common-git.md",
+            "file": "mbp/recommend/1-web.md",
             "mode": "source",
             "backlinks": true,
             "source": false
@@ -34,7 +34,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "mbp/standard/common-git.md"
+                "file": "mbp/recommend/1-web.md"
               }
             }
           }
@@ -97,7 +97,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "mbp/standard/common-git.md",
+                "file": "mbp/recommend/1-web.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -114,7 +114,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "mbp/standard/common-git.md",
+                "file": "mbp/recommend/1-web.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -164,13 +164,13 @@
   },
   "active": "bc5acf9a8cb81a28",
   "lastOpenFiles": [
+    "mbp/standard/common-git.md",
     "mbp/standard/git-standard.md",
     "mbp/backup/software/01-terminal.md",
     "mbp/recommend/3-software.md",
     "mbp/recommend/1-web.md",
     "mbp/backup/software/05-Fleet.md",
     "mbp/backup/software/04-obsidian.md",
-    "mbp/standard/common-git.md",
     "mbp/recommend/2-github-star.md",
     "music/README.md",
     "mbp/backup/software/02-idea.md"
