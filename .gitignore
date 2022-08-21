@@ -22,7 +22,6 @@ target/
 ### NetBeans ###
 /nbproject/private/
 /nbbuild/
-/dist/
 /nbdist/
 /.nb-gradle/
 build/
@@ -34,7 +33,6 @@ build/
 /out
 /node_modules
 /blog-img
-/docs/.vuepress/dist/
 /docs/.vuepress/.temp/
 /docs/.vuepress/.cache/
 
