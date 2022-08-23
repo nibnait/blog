@@ -69,6 +69,6 @@ TablePrefix = cd_
 防止 pan.tianbin.cc 长时间未访问，自动关闭
 - 软件商店 -> Supervisor管理器
 
-![image.png](https://img.tianbin.cc/mbp/tutorial/03-cloudreve-cloudreve-1.jpg)
+![image.png](https://nibnait.gitee.io/images/mbp/tutorial/03-cloudreve-cloudreve-1.jpg)
 
 。启动。启动失败，可查看日志。

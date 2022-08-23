@@ -12,8 +12,8 @@ tag: [tutorial, vuepress]
  - [emoji 简写](https://github.com/markdown-it/markdown-it-emoji/blob/master/lib/data/full.json)
 
 ## 先装个 宝塔linux 面板
-![image.png](https://img.tianbin.cc/mbp/tutorial/02-vuepress-01-重装系统.jpg)
-![image.png](https://img.tianbin.cc/mbp/tutorial/02-vuepress-02-宝塔linux.jpg)
+![image.png](https://nibnait.gitee.io/images/mbp/tutorial/02-vuepress-01-重装系统.jpg)
+![image.png](https://nibnait.gitee.io/images/mbp/tutorial/02-vuepress-02-宝塔linux.jpg)
 
 安装完成后，先在网页登录一下服务器
 > bt default
@@ -70,7 +70,7 @@ tag: [tutorial, vuepress]
 博客 就算搭建完了
 
 最后把本地目录和服务器目录做下映射
-![image.png](https://img.tianbin.cc/mbp/tutorial/02-vuepress-03-ftp映射.jpg)
+![image.png](https://nibnait.gitee.io/images/mbp/tutorial/02-vuepress-03-ftp映射.jpg)
 
 ## 图床
 直接在 blog.tianbin.cc 下面 再建一个叫 img 的文件夹。  
