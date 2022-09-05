@@ -9,7 +9,17 @@ tag: [software, vscode]
 
 ## project manager
 
-Project Manager: List Projects to Open in New Window
-![image.png](https://nibnait.gitee.io/images/mbp/software/03-vscode-01-project-manager.jpg)
-Add Selection To Next Find Match
-![image.png](https://nibnait.gitee.io/images/mbp/software/03-vscode-02.jpg)
+## 快捷键
+
+| description                                          | hotkey            |
+| ---------------------------------------------------- | ----------------- |
+| Project Manager: List Projects to Open in New Window | `cmd + shift + p` |
+| Add Selection To Next Find Match                     | `ctrl + g`        |
+
+### format
+`opt + cmd + l`
+ - save without formatiting
+ - format cell
+ - format document
+ - format selection
+ - format notebook
