@@ -16,21 +16,23 @@ tag: [website]
 
 ## 小工具
 
-| <div style="width:400px">简介</div> | <div style="width:100px">url</div>                       |
-| ----------------------------------- | -------------------------------------------------------- |
-| 临时邮件                            | <https://temp-mail.org/zh>                               |
-| 正则图形化                          | <https://regexper.com>                                   |
-| cron                                | <https://cron.qqe2.com><br /><https://tool.lu/crontab>   |
-| json格式化                          | <https://www.sojson.com>                                 |
-| 在线秒表/计时器                     | <https://naozhong.net.cn/miaobiao/#enabled=0&msec=76662> |
-| 隔空传文件                          | <https://airportal.cn>                                   |
-| 图片压缩                            | <https://squoosh.app>                                    |
-| 多个地点 ping                       | <https://ping.chinaz.com>                                |
-| json 转 excel                       | <https://wejson.cn/json2excel/>                          |
-| json 转 java                        | <https://www.bejson.com/json2javapojo/new/>              |
-| excel 转 json                       | <https://uutool.cn/excel2json/>                          |
-| 高架夜间封路_上海市道路运输管理局   | <http://dlysj.sh.gov.cn/gjyjfl/index.html>               |
-| scss 转 css                         | <https://www.sassmeister.com/>                           |
+| <div style="width:400px">简介</div> | <div style="width:100px">url</div>                                                      |
+| ----------------------------------- | --------------------------------------------------------------------------------------- |
+| 临时邮件                            | <https://temp-mail.org/zh>                                                              |
+| 正则图形化                          | <https://regexper.com>                                                                  |
+| cron                                | <https://cron.qqe2.com><br /><https://tool.lu/crontab>                                  |
+| json格式化                          | <https://www.sojson.com>                                                                |
+| 在线秒表/计时器                     | <https://naozhong.net.cn/miaobiao/#enabled=0&msec=76662>                                |
+| 隔空传文件                          | <https://airportal.cn>                                                                  |
+| 图片压缩                            | <https://squoosh.app>                                                                   |
+| 多个地点 ping                       | <https://ping.chinaz.com>                                                               |
+| json 转 excel                       | <https://wejson.cn/json2excel/>                                                         |
+| json 转 java                        | <https://www.bejson.com/json2javapojo/new/>                                             |
+| java 转 json                        | ides 插件 POJO to JSON <br/>  <https://plugins.jetbrains.com/plugin/12066-pojo-to-json> |
+| excel 转 json                       | <https://uutool.cn/excel2json/>                                                         |
+| 高架夜间封路_上海市道路运输管理局   | <http://dlysj.sh.gov.cn/gjyjfl/index.html>                                              |
+| scss 转 css                         | <https://www.sassmeister.com/>                                                          |
+| 在线画图                            | <https://excalidraw.com/>                                                               |
 
 ## 地球
 
@@ -66,14 +68,10 @@ tag: [website]
 | Docker 从入门到实践                 | <https://vuepress.mirror.docker-practice.com/>       |
 | DevDocs                             | <https://devdocs.io>                                 |
 
-## 壁纸
+## 其他
 
 | <div style="width:400px">简介</div> | <div style="width:100px">url</div> |
 | ----------------------------------- | ---------------------------------- |
 | 每日必应壁纸                        | <http://www.miimage.cn>            |
-|                                     |                                    |
-
-
-
-
+| 小霸王游戏机                        | <https://www.yikm.net>             |
 

@@ -5,7 +5,7 @@ tag: [software, idea]
 ---
 # 02 - idea
 
-# Keymap
+## Keymap
 
 ### Tool Windowd
 
@@ -31,7 +31,7 @@ tag: [software, idea]
 
 ![image.png](https://nibnait.gitee.io/images/mbp/software/02-idea-03-move-end.jpg)
 
-# 一些设置
+## 一些设置
 
 ### all match
 
@@ -41,14 +41,16 @@ tag: [software, idea]
 
 ![image.png](https://nibnait.gitee.io/images/mbp/software/02-idea-05-fileencoding.jpg)
 
-# 一些插件
+## 一些插件
 
  - code with me 删掉
  - Lombok
  - Maven Helper
  - PlantUML integration
+ - pojo to json（organics2016）
+ -  Jadx Class Decompiler（反编译器和字节码分析器）
 
-# idea 历史版本
+## idea 历史版本
 <https://www.jetbrains.com/idea/>
 
 历史版本：[https://www.jetbrains.com/idea/download/other.html](https://www.jetbrains.com/idea/download/other.html)
