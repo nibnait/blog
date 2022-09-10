@@ -4,7 +4,7 @@ title: 初始化我的 MacBook Pro
 # 初始化我的 MacBook Pro 
 
 ## 触发角
-![](https://nibnait.gitee.io/images/mbp/hot_corners.jpg)
+![](https://img.tianbin.cc/mbp/hot_corners.jpg)
 
 ## App Store
 - iSaver  

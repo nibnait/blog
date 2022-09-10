@@ -19,7 +19,7 @@ tag: [standard, UML]
 
 ## 对象之间的关系
 
-![对象和类之间的关系.png](https://nibnait.gitee.io/images/mbp/uml.jpg)
+![对象和类之间的关系.png](https://img.tianbin.cc/mbp/uml.jpg)
 
 - 依赖：对类 B 进行修改会影响到类 A 。
   （教授 --> 课程）

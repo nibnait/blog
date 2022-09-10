@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "mbp/backup/software/02-idea.md",
+            "file": "algorithm/02-basic/class05.md",
             "mode": "source",
             "backlinks": true,
             "source": false
@@ -34,7 +34,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "mbp/backup/software/02-idea.md"
+                "file": "algorithm/02-basic/class05.md"
               }
             }
           }
@@ -97,7 +97,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "mbp/backup/software/02-idea.md",
+                "file": "algorithm/02-basic/class05.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -114,7 +114,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "mbp/backup/software/02-idea.md",
+                "file": "algorithm/02-basic/class05.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -164,8 +164,8 @@
   },
   "active": "bc5acf9a8cb81a28",
   "lastOpenFiles": [
-    "mbp/recommend/1-web.md",
     "mbp/backup/software/02-idea.md",
+    "mbp/recommend/1-web.md",
     "mbp/backup/software/03-vscode.md",
     "mbp/backup/software/04-obsidian.md",
     "mbp/standard/common-git.md",

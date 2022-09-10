@@ -1,1 +1,0 @@
-const t=JSON.parse('{"key":"v-2a78d749","path":"/md/music/","title":"\u6211\u7684\u6B4C\u5355","lang":"en-US","frontmatter":{"title":"\u6211\u7684\u6B4C\u5355"},"excerpt":"","headers":[],"git":{"updatedTime":1660110090000,"contributors":[{"name":"tianbin","email":"tianbin@bilibili.com","commits":2}]},"filePathRelative":"md/music/README.md"}');export{t as data};
