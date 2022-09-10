@@ -8,10 +8,10 @@ tag: [website]
 ## 合集
 
 | <div style="width:400px">简介</div> | <div style="width:100px">url</div>                 |
-| ----------------------------------- | -------------------------------------------------- |
+| ----------------------------------- |----------------------------------------------------|
 | 小傅哥                              | <https://github.com/fuzhengwei/CodeGuide>          |
 | 程序员鱼皮：找书、找资源            | <https://www.code-nav.cn/topic/%E4%B9%A6%E7%B1%8D> |
-| Lks 良心网站推荐                    | <https://xiangjianan.gitee.io/lks>                 |
+| Lks 良心网站推荐                    | <https://lkssite.vip>                              |
 | Mic的网址收藏夹                     | <https://doc.istio.tech>                           |
 
 ## 小工具
