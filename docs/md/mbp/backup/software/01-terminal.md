@@ -5,13 +5,9 @@ tag: [software, terminal]
 ---
 # 01 - 终端
 
-## warp
+## item2
 
-下载地址 [https://www.warp.dev/](https://www.warp.dev/)
-
-使用文档 [https://docs.warp.dev/getting-started/getting-started-with-warp](https://docs.warp.dev/getting-started/getting-started-with-warp)
-
-<s>[https://iterm2.com/](https://iterm2.com/)</s>
+[https://iterm2.com/](https://iterm2.com/)
 
 ### 安装HomeBrew
 

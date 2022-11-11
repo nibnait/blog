@@ -23,8 +23,8 @@ features:
 
 ## Java
  - 设计模式      [design-pattern-demo](https://github.com/nibnait/design-pattern-demo)
- - 手撸 Spring  [small-mybatis](https://github.com/nibnait/small-mybatis)
- - 手撸 Mybatis [small-spring](https://github.com/nibnait/small-spring)
+ - 手撸 Spring  [small-spring](https://github.com/nibnait/small-spring)
+ - 手撸 Mybatis [small-mybatis](https://github.com/nibnait/small-mybatis)
  - Netty 4.x
 
 ## Go

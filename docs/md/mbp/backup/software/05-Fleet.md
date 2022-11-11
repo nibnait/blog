@@ -4,17 +4,18 @@ title: 05 - Fleet
 tag: [software, Fleet]
 ---
 
-cmd + shift + K  
+cmd + shift + P  
 keymap
 
 | description                   | keymap                        |
 | ----------------------------- | ----------------------------- |
+| show keymap                   | `cmd+k, cmd+s`                |
+| jump to terminal              | ctrl + `                      |
 | show goto file panel          | `cmd + e` , `cmd + shift + o` |
 | show file symbols             | 空                            |
 | show goto action panel        | `cmd + shift + p`             |
 | show goto panel               | 空                            |
 | show goto symbol panel        | `cmd + p`                     |
-| show keymap                   | `cmd+k, cmd+s`                |
 | switch color scheme           | 空                            |
 | show in files                 | f1                            |
 | open in right split           | cmd + shift + 2               |

@@ -36,7 +36,6 @@ tag: [website]
 | Logitech Options         | <https://www.logitech.com.cn/zh-cn/product/options>                                                  |
 | ezip                     | <https://ezip.awehunt.com/>                                                                          |
 | Karabiner，键盘 key 映射 | <https://karabiner-elements.pqrs.org/> <br/> 配置备份：<https://github.com/nibnait/karabiner-config> |
-| Macs Fan Control Pro     | <https://crystalidea.com/macs-fan-control>                                                           |
 | foobar2000               | <https://www.foobar2000.org/download>                                                                |
 
 ### 生产力工具

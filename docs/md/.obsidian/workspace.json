@@ -4,17 +4,23 @@
     "type": "split",
     "children": [
       {
-        "id": "3794cf907c02d972",
-        "type": "leaf",
-        "state": {
-          "type": "markdown",
-          "state": {
-            "file": "mbp/backup/software/02-idea.md",
-            "mode": "source",
-            "backlinks": true,
-            "source": false
+        "id": "ec0f6e39f38e529b",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "9af944d6812e12b5",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "algorithm/02-basic/tmp.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
           }
-        }
+        ]
       }
     ],
     "direction": "vertical"
@@ -34,7 +40,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "mbp/backup/software/02-idea.md"
+                "file": "algorithm/02-basic/tmp.md"
               }
             }
           }
@@ -50,7 +56,9 @@
             "type": "leaf",
             "state": {
               "type": "file-explorer",
-              "state": {}
+              "state": {
+                "sortOrder": "alphabetical"
+              }
             }
           },
           {
@@ -59,7 +67,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:#归并排序",
+                "query": "tag:#左神-体系学习班",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -80,7 +88,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 401.5
+    "width": 277.5,
+    "collapsed": true
   },
   "right": {
     "id": "d25978a0ea1f35b5",
@@ -89,7 +98,7 @@
       {
         "id": "c9a2bbbd536e8ea2",
         "type": "tabs",
-        "dimension": 44.18434528163863,
+        "dimension": 14.13427561837456,
         "children": [
           {
             "id": "f53f346fd366472e",
@@ -97,7 +106,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "mbp/backup/software/02-idea.md",
+                "file": "algorithm/02-basic/tmp.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -114,7 +123,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "mbp/backup/software/02-idea.md",
+                "file": "algorithm/02-basic/tmp.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -142,7 +151,7 @@
       {
         "id": "8719996879ff8351",
         "type": "tabs",
-        "dimension": 55.81565471836137,
+        "dimension": 85.86572438162544,
         "children": [
           {
             "id": "0feccbe4a84d9b3b",
@@ -159,20 +168,20 @@
       }
     ],
     "direction": "horizontal",
-    "width": 681.5,
+    "width": 269.5,
     "collapsed": true
   },
-  "active": "3794cf907c02d972",
+  "active": "9af944d6812e12b5",
   "lastOpenFiles": [
-    "algorithm/02-basic/class05.md",
-    "mbp/backup/software/02-idea.md",
-    "mbp/recommend/1-web.md",
-    "mbp/backup/software/03-vscode.md",
-    "mbp/backup/software/04-obsidian.md",
-    "mbp/standard/common-git.md",
-    "mbp/standard/git-standard.md",
-    "mbp/backup/software/01-terminal.md",
-    "mbp/recommend/3-software.md",
-    "mbp/backup/software/05-Fleet.md"
+    "algorithm/02-basic/Pasted image 20221026065413.png",
+    "algorithm/02-basic/tmp.md",
+    "algorithm/02-basic/Pasted image 20221104083935.png",
+    "mbp/my-mac.md",
+    "algorithm/03-for-great-offer/class01.md",
+    "Pasted image 20221022151017.png",
+    "Pasted image 20221022202152.png",
+    "Pasted image 20221023090833.png",
+    "Pasted image 20221023095028.png",
+    "Pasted image 20221023091352.png"
   ]
 }

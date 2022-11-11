@@ -25,7 +25,6 @@ tag: [website]
 |:----------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | iScreenSaver 自定义屏保             | <https://github.com/titman/iScreenSaver> <br/> 屏保代码备份：[iScreenSaver-code-demo](https://github.com/nibnait/algorithms/blob/master/src/main/java/cc/tianbin/backup/html/README.md) |
 | you-get - 一行命令下载全网视频。    | <https://github.com/soimort/you-get>                                                                                                                                                    |
-| warpd 全键盘的最后一公里            | <https://github.com/rvaiya/warpd>                                                                                                                                                       |
 | Hidden Bar                          | <https://github.com/dwarvesf/hidden>                                                                                                                                                    |
 | LyricsX                             | <https://github.com/ddddxxx/LyricsX>                                                                                                                                                    |
 

@@ -49,6 +49,12 @@ tag: [mbp]
 <p> html代码 <a href="https://github.com/nibnait/blog/blob/master/docs/.vuepress/public/screen-saver-backup/snow.html">snow.html</a> </p>
 </div>
 
+## star
+<div class="box">
+<iframe src="https://tianbin.cc/screen-saver-backup/star.html"></iframe>
+<p> html代码 <a href="https://github.com/nibnait/blog/blob/master/docs/.vuepress/public/screen-saver-backup/star.html">snow.html</a> </p>
+</div>
+
 ## 图片轮播
 <div class="box">
 <iframe src="https://tianbin.cc/screen-saver-backup/pic-swiper.html"></iframe>

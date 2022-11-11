@@ -9,15 +9,16 @@ tag: [software, idea]
 
 ### Tool Windowd
 
-| 搜索 关键词            | 快捷键         |
-| ---------------------- | -------------- |
-| project                | cmd + 1        |
-| commit                 | cmd + 2        |
-| git                    | cmd + 3        |
-| terminal               | ctrl + `       |
-| Fully Expand Tree Node | alt+鼠标滚轮下 |
-| collapse tree node     | alt+鼠标滚轮上 |
-| manage project         | cmd+shift+p    |
+| 搜索 关键词                                                   | 快捷键          |
+| ------------------------------------------------------------- | --------------- |
+| project                                                       | cmd + 1         |
+| commit                                                        | cmd + 2         |
+| git                                                           | cmd + 3         |
+| terminal                                                      | ctrl + `        |
+| Fully Expand Tree Node                                        | alt+鼠标滚轮下  |
+| collapse tree node                                            | alt+鼠标滚轮上  |
+| manage project                                                | cmd+shift+p     |
+| debug actions -> drop frame / reset frame <br/>（debug 退回） | cmd + shift + 9 |
 
 
 ### project win
@@ -42,13 +43,21 @@ tag: [software, idea]
 ![image.png](https://img.tianbin.cc/mbp/software/02-idea-05-fileencoding.jpg)
 
 ## 一些插件
-
+必备插件：
  - code with me 删掉
  - Lombok
  - Maven Helper
  - PlantUML integration
- - pojo to json（organics2016）
- -  Jadx Class Decompiler（反编译器和字节码分析器）
+
+好用插件：
+
+| 插件名                       | 作用                                                         |
+| ---------------------------- | ------------------------------------------------------------ |
+| pojo to json（organics2016） | 见名知意                                                     |
+| Jadx Class Decompiler        | 反编译器和字节码分析器                                       |
+| Grep Console                 | 控制台日志颜色    <br/>	 - info #CCCCCC <br/>- error #FF6666 |
+| Sequence Diagram             | 在test类 自动生成调用过程的时序图                            |
+
 
 ## idea 历史版本
 <https://www.jetbrains.com/idea/>
