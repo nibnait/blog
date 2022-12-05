@@ -9,16 +9,18 @@ tag: [software, idea]
 
 ### Tool Windowd
 
-| 搜索 关键词                                                   | 快捷键          |
-| ------------------------------------------------------------- | --------------- |
-| project                                                       | cmd + 1         |
-| commit                                                        | cmd + 2         |
-| git                                                           | cmd + 3         |
-| terminal                                                      | ctrl + `        |
-| Fully Expand Tree Node                                        | alt+鼠标滚轮下  |
-| collapse tree node                                            | alt+鼠标滚轮上  |
-| manage project                                                | cmd+shift+p     |
-| debug actions -> drop frame / reset frame <br/>（debug 退回） | cmd + shift + 9 |
+| 搜索 关键词                                                   | 快捷键               |
+| ------------------------------------------------------------- | -------------------- |
+| project                                                       | cmd + 1              |
+| commit                                                        | cmd + 2              |
+| git                                                           | cmd + 3              |
+| terminal                                                      | ctrl + `             |
+| Fully Expand Tree Node                                        | alt+鼠标滚轮下       |
+| collapse tree node                                            | alt+鼠标滚轮上       |
+| manage project                                                | cmd+shift+p          |
+| debug actions -> drop frame / reset frame <br/>（debug 退回） | cmd + shift + 9      |
+| Show Bytecode With Jclassli                                   | ctrl+opt+shift+cmd+j |
+| Analyze Byte Code                                             | ctrl+opt+shift+cmd+k |
 
 
 ### project win
@@ -26,7 +28,6 @@ tag: [software, idea]
 ![image.png](https://img.tianbin.cc/mbp/software/02-idea-01-project-window.jpg)
 
 ### move caret line start
-
 ![image.png](https://img.tianbin.cc/mbp/software/02-idea-02-move-start.jpg)
 ### move caret line end
 
@@ -55,6 +56,7 @@ tag: [software, idea]
 | ---------------------------- | ------------------------------------------------------------ |
 | pojo to json（organics2016） | 见名知意                                                     |
 | Jadx Class Decompiler        | 反编译器和字节码分析器                                       |
+| jclasslib                    | 直接将 Java 文件反编译为 class 文件                          |
 | Grep Console                 | 控制台日志颜色    <br/>	 - info #CCCCCC <br/>- error #FF6666 |
 | Sequence Diagram             | 在test类 自动生成调用过程的时序图                            |
 

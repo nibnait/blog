@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "algorithm/02-basic/tmp.md",
+                "file": "mbp/backup/software/02-idea.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -40,7 +40,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "algorithm/02-basic/tmp.md"
+                "file": "mbp/backup/software/02-idea.md"
               }
             }
           }
@@ -88,8 +88,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 277.5,
-    "collapsed": true
+    "width": 277.5
   },
   "right": {
     "id": "d25978a0ea1f35b5",
@@ -106,7 +105,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "algorithm/02-basic/tmp.md",
+                "file": "mbp/backup/software/02-idea.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -123,7 +122,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "algorithm/02-basic/tmp.md",
+                "file": "mbp/backup/software/02-idea.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -173,15 +172,15 @@
   },
   "active": "9af944d6812e12b5",
   "lastOpenFiles": [
+    "algorithm/algorithm.md",
+    "algorithm/03-for-great-offer/class01.md",
+    "algorithm/02-basic/动态规划.md",
+    "algorithm/02-basic/Pasted image 20221112080616.png",
     "algorithm/02-basic/Pasted image 20221026065413.png",
-    "algorithm/02-basic/tmp.md",
     "algorithm/02-basic/Pasted image 20221104083935.png",
     "mbp/my-mac.md",
-    "algorithm/03-for-great-offer/class01.md",
     "Pasted image 20221022151017.png",
     "Pasted image 20221022202152.png",
-    "Pasted image 20221023090833.png",
-    "Pasted image 20221023095028.png",
-    "Pasted image 20221023091352.png"
+    "Pasted image 20221023090833.png"
   ]
 }
