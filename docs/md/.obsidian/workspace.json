@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "mbp/backup/software/02-idea.md",
+                "file": "mbp/my-mac.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -40,7 +40,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "mbp/backup/software/02-idea.md"
+                "file": "mbp/my-mac.md"
               }
             }
           }
@@ -105,7 +105,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "mbp/backup/software/02-idea.md",
+                "file": "mbp/my-mac.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -122,7 +122,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "mbp/backup/software/02-idea.md",
+                "file": "mbp/my-mac.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -170,17 +170,28 @@
     "width": 269.5,
     "collapsed": true
   },
+  "left-ribbon": {
+    "hiddenItems": {
+      "table-editor-obsidian:Advanced Tables Toolbar": false,
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false
+    }
+  },
   "active": "9af944d6812e12b5",
   "lastOpenFiles": [
+    "mbp/backup/software/01-terminal.md",
+    "mbp/backup/software/02-idea.md",
+    "Untitled.md",
     "algorithm/algorithm.md",
     "algorithm/03-for-great-offer/class01.md",
     "algorithm/02-basic/动态规划.md",
     "algorithm/02-basic/Pasted image 20221112080616.png",
     "algorithm/02-basic/Pasted image 20221026065413.png",
     "algorithm/02-basic/Pasted image 20221104083935.png",
-    "mbp/my-mac.md",
-    "Pasted image 20221022151017.png",
-    "Pasted image 20221022202152.png",
-    "Pasted image 20221023090833.png"
+    "mbp/my-mac.md"
   ]
 }

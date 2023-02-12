@@ -11,7 +11,7 @@ const nettySide = require(rootPath + '/side-bar-config/5-netty.js');
 const tutorialSide = require(rootPath + '/side-bar-config/6-tutorial.js');
 
 module.exports = {
-    title: "NibNait | tianbin",
+    title: "NibNait（个人学习记录）",
     description: "沉淀 + 分享",
 
     theme: defaultTheme({
