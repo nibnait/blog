@@ -11,16 +11,18 @@ tag: [software, idea]
 
 | 搜索 关键词                                                   | 快捷键               |
 | ------------------------------------------------------------- | -------------------- |
-| project                                                       | cmd + 1              |
-| commit                                                        | cmd + 2              |
-| git                                                           | cmd + 3              |
-| terminal                                                      | ctrl + `             |
-| Fully Expand Tree Node                                        | alt+鼠标滚轮下       |
-| collapse tree node                                            | alt+鼠标滚轮上       |
-| manage project                                                | cmd+shift+p          |
+| project                                                   | cmd + 1              |
+| commit                                                    | cmd + 2              |
+| git                                                       | cmd + 3              |
+| terminal                                                  | ctrl + `             |
+| bookmarks                                                 | alt + `              |
+| Fully Expand Tree Node                                    | alt+鼠标滚轮下            |
+| collapse tree node                                        | alt+鼠标滚轮上            |
+| manage project                                            | cmd+shift+p          |
 | debug actions -> drop frame / reset frame <br/>（debug 退回） | cmd + shift + 9      |
-| Show Bytecode With Jclassli                                   | ctrl+opt+shift+cmd+j |
-| Analyze Byte Code                                             | ctrl+opt+shift+cmd+k |
+| show uml diagram                                          | ctrl+opt+shift+cmd+u     |
+| Show Bytecode With Jclassli                               | ctrl+opt+shift+cmd+j |
+| Analyze Byte Code                                         | ctrl+opt+shift+cmd+k |
 
 
 ### project win

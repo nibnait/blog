@@ -113,3 +113,4 @@ Web前端助手（FeHelper）- crx文件安装方法
 你实际使用的是安装Xcode命令行工具的命令 - `xcode-select --install`。
 
 你需要更新Xcode的命令是`softwareupdate command [args ...]`。你可以使用`softwareupdate --list`查看可用的内容，然后`softwareupdate --install -a`安装所有更新或`softwareupdate --install <product name>`只安装Xcode更新。你可以从列表命令中获取名称。
+
