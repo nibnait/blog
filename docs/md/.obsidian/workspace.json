@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "mbp/my-mac.md",
+                "file": "mbp/backup/software/02-idea.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -30,26 +30,8 @@
     "type": "split",
     "children": [
       {
-        "id": "e1f7d6bddf32b621",
-        "type": "tabs",
-        "dimension": 42.35181644359465,
-        "children": [
-          {
-            "id": "617680ba37733fcd",
-            "type": "leaf",
-            "state": {
-              "type": "outline",
-              "state": {
-                "file": "mbp/my-mac.md"
-              }
-            }
-          }
-        ]
-      },
-      {
         "id": "76523cf610c2935f",
         "type": "tabs",
-        "dimension": 57.64818355640535,
         "children": [
           {
             "id": "d9054f1680845f41",
@@ -67,7 +49,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:#左神-体系学习班",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -97,15 +79,35 @@
       {
         "id": "c9a2bbbd536e8ea2",
         "type": "tabs",
-        "dimension": 14.13427561837456,
         "children": [
+          {
+            "id": "617680ba37733fcd",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "mbp/backup/software/02-idea.md"
+              }
+            }
+          },
+          {
+            "id": "0feccbe4a84d9b3b",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
           {
             "id": "f53f346fd366472e",
             "type": "leaf",
             "state": {
               "type": "backlink",
               "state": {
-                "file": "mbp/my-mac.md",
+                "file": "mbp/backup/software/02-idea.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -122,7 +124,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "mbp/my-mac.md",
+                "file": "mbp/backup/software/02-idea.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -142,25 +144,6 @@
             "state": {
               "type": "graph",
               "state": {}
-            }
-          }
-        ],
-        "currentTab": 2
-      },
-      {
-        "id": "8719996879ff8351",
-        "type": "tabs",
-        "dimension": 85.86572438162544,
-        "children": [
-          {
-            "id": "0feccbe4a84d9b3b",
-            "type": "leaf",
-            "state": {
-              "type": "tag",
-              "state": {
-                "sortOrder": "frequency",
-                "useHierarchy": true
-              }
             }
           }
         ]
@@ -183,15 +166,15 @@
   },
   "active": "9af944d6812e12b5",
   "lastOpenFiles": [
+    "mbp/backup/software/04-obsidian.md",
+    "java/concurrent/interview.md",
+    "java/concurrent/concurrent.md",
+    "java/basic/basic.md",
+    "mbp/my-mac.md",
     "mbp/backup/software/01-terminal.md",
     "mbp/backup/software/02-idea.md",
     "Untitled.md",
     "algorithm/algorithm.md",
-    "algorithm/03-for-great-offer/class01.md",
-    "algorithm/02-basic/动态规划.md",
-    "algorithm/02-basic/Pasted image 20221112080616.png",
-    "algorithm/02-basic/Pasted image 20221026065413.png",
-    "algorithm/02-basic/Pasted image 20221104083935.png",
-    "mbp/my-mac.md"
+    "algorithm/03-for-great-offer/class01.md"
   ]
 }
