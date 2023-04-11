@@ -10,14 +10,12 @@ title: 初始化我的 MacBook Pro
 - iSaver  
 /System/Library/Screen Savers
 
-## 百度云
+## [百度云](https://pan.baidu.com/)
 - Spectacle+1.2
 - Alfred youdao
 - AirServer
 
-[[3-software]]
-
-### Sublime Text
+## [Sublime Text](https://tianbin.cc/md/mbp/my-mac.html#触发角)
 ```
 ctrl + `
 

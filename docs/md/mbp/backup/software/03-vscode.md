@@ -6,20 +6,19 @@ tag: [software, vscode]
 # 03 - vscode
 
 # 插件
-
-## project manager
+ - project manager
 
 ## 快捷键
 
 | description                                          | hotkey            |
 | ---------------------------------------------------- | ----------------- |
 | Project Manager: List Projects to Open in New Window | `cmd + shift + p` |
-| Add Selection To Next Find Match                     | `ctrl + g`        |
+| duplicate selection                                  | `cmd + d`         |
+| show explorer                                        | `cmd + 1`         |
+| save without formatiting                             | ╲                 |
+| format cell                                          | ╲                 |
+| format document                                      | `opt + cmd + l`   |
+| format selection                                     | ╱                 |
+| format notebook                                      | ╱                 |
 
-### format
-`opt + cmd + l`
- - save without formatiting
- - format cell
- - format document
- - format selection
- - format notebook
+

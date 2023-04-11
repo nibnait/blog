@@ -39,13 +39,14 @@ tag: [website]
 | foobar2000               | <https://www.foobar2000.org/download>                                                                |
 
 ### 生产力工具
-| 简介           | 官网地址                                                                                 |
-|--------------| ---------------------------------------------------------------------------------------- |
-| JetBrains    | <https://www.jetbrains.com/products/>                                                    |
-| idea 历史版本    | <https://www.jetbrains.com/idea/download/other.html>                                     |
-| XCode        | <https://developer.apple.com/download/more/?=xcode>                                      |
-| Sublime Text | <https://www.sublimetext.com> <br/> 包管理工具：<https://packagecontrol.io/installation> |
-| Obsidian     | <https://obsidian.md/>                                                                   |
-| Typora       | <https://www.typora.io/>                                                                 |
-| Proxyman     | <https://proxyman.io/>                                                                   |
-| Sequel Pro   | <https://www.sequelpro.com/>                                                             |
+| 简介          | 官网地址                                                                                                                                 |
+| ------------- | ---------------------------------------------------------------------------------------------------------------------------------------- |
+| JetBrains     | <https://www.jetbrains.com/products/>                                                                                                    |
+| idea 历史版本 | idea <https://www.jetbrains.com/idea/download/other.html> <br/> data grip <https://www.jetbrains.com/zh-cn/datagrip/download/other.html> |
+| XCode         | <https://developer.apple.com/download/more/?=xcode>                                                                                      |
+| Sublime Text  | <https://www.sublimetext.com> <br/> 包管理工具：<https://packagecontrol.io/installation>                                                 |
+| Obsidian      | <https://obsidian.md/>                                                                                                                   |
+| Typora        | <https://www.typora.io/>                                                                                                                 |
+| Proxyman      | <https://proxyman.io/>                                                                                                                   |
+| Sequel Pro    | <https://www.sequelpro.com/>                                                                                                             |
+| sdk man       | <https://sdkman.io/>                                                                                                                     |
