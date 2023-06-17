@@ -57,6 +57,13 @@ alias vb='vuepress build docs'
 alias yd='yarn docs:dev'
 alias yb='yarn docs:build'
 
+# git 相关
+alias gsc="gcam 'solve conflict'"
+alias gl="git pull --rebase"
+alias gco="git fetch origin && git checkout"
+alias gcam="gaa && git commit --all --message"
+alias gca!=“gaa && git commit --verbose --all --amend”
+
 export GO_HOME=/usr/loacl/go
 export MAVEN_HOME=/Users/nibnait/apache-maven-3.6.3
 export JAVA_HOME=/Library/Java/JavaVirtualMachines/jdk1.8.0_231.jdk/Contents/Home
