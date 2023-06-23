@@ -62,7 +62,7 @@ alias gsc="gcam 'solve conflict'"
 alias gl="git pull --rebase"
 alias gco="git fetch origin && git checkout"
 alias gcam="gaa && git commit --all --message"
-alias gca!=“gaa && git commit --verbose --all --amend”
+alias gca!="gaa && git commit --verbose --all --amend"
 
 export GO_HOME=/usr/loacl/go
 export MAVEN_HOME=/Users/nibnait/apache-maven-3.6.3
