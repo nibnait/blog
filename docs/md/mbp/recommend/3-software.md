@@ -1,10 +1,3 @@
----
-category: website
-title: 一些好用的软件
-tag: [website]
----
-# 一些好用的软件
-
 ## App Store
 
 - 万年历
@@ -53,9 +46,8 @@ tag: [website]
 | Sequel Pro    | [https://www.sequelpro.com/](https://www.sequelpro.com/)                                                                                                                                                                                                   |
 | sdk man       | [https://sdkman.io/](https://sdkman.io/)                                                                                                                                                                                                                   |
 
-### 百度翻译
-
-[https://fanyi.baidu.com](https://fanyi.baidu.com)
+### 翻译
+[百度翻译 https://fanyi.baidu.com](https://fanyi.baidu.com)
 
 |               |                |
 | ------------- | -------------- |

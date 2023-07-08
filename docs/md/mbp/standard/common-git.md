@@ -1,10 +1,3 @@
----
-category: 规范
-title: 常用 git 操作
-tag: [git]
----
-# 常用 git 操作
-
 ## git 初始化
 
 > `ssh-keygen -t rsa -C "w@xx.xx"`
@@ -98,7 +91,7 @@ git push origin v1.2.84
 
 ## git revert
 移除某些 commit
-> git revert —no-commit <commit1>..<commit2>
+> git revert —no-commit `<commit1>`..`<commit2>`
 
 注意：
 - 不包含 commit1

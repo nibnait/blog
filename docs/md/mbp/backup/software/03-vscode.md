@@ -1,21 +1,15 @@
----
-category: 软件配置
-title: 03 - vscode
-tag: [software, vscode]
----
-# 03 - vscode
-
-# 插件
+## 插件
 
 * Typora
 * Partial Diff
 * Excel to Markdown Table
 * Live Preview
-* UglyString
+* JSON Tools
+* ~~UglyString~~
 
 ---
 
-settings
+## settings
 
 * **auto show preview to side**
 * auto save
@@ -31,7 +25,7 @@ settings
 | format document                      | opt + cmd + l             | ``                         |
 | format selection                     | ╱                        | ``                         |
 | format notebook                      | ╱                        | ``                         |
-| join lines                           | opt + cmd + j             | ``                         |
+| JSON Tools: Minify JSON                           | opt + cmd + j             | ``                         |
 | go to file                           | cmd + shift + o           | ``                         |
 | show explorer                        | cmd + 1                   | ``                         |
 | toggle primary side bar visibility   | opt + ‘                  | ``                         |

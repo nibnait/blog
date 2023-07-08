@@ -7,6 +7,14 @@ antomaticlly download
 Code Templates
 serializable class without 'serialVersionUID'
 
+## 集成 Alfred
+
+Tools -> Create Command-line Launcher
+
+然后 在终端里面试一下 `/usr/local/bin/idea /Users/nibnait/blog`
+
+如果没问题，直接去 Alfred 配置
+
 ## 必备插件：
 
 * Lombok
@@ -50,6 +58,7 @@ serializable class without 'serialVersionUID'
 | Analyze Byte Code                                                                      | ctrl+opt+shift+cmd+k                               |
 | split                                                                                  | cmd + shift + 2, cmd + shift + w,  cmd + opt + 2   |
 | Main Menu -> File  -> New: new java, new package,<br />new package-info.java, new file | cmd + j, cmd + p, cmd + p,<br />hyper + p, cmd + n |
+| code -> generate                                                                       | cmd + n                                            |
 | copy reference                                                                         | cmd + shift + c                                    |
 | compare with branch                                                                    | hyper + b                                          |
 | compare with revision                                                                  | hyper + r                                          |
