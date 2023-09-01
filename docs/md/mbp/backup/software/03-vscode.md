@@ -5,7 +5,7 @@
 * Excel to Markdown Table
 * Live Preview
 * JSON Tools
-* ~~UglyString~~
+* ~~UglyString~~ 
 
 ---
 
@@ -27,26 +27,24 @@
 | format notebook                      | ╱                        | ``                         |
 | JSON Tools: Minify JSON                           | opt + cmd + j             | ``                         |
 | go to file                           | cmd + shift + o           | ``                         |
-| show explorer                        | cmd + 1                   | ``                         |
 | toggle primary side bar visibility   | opt + ‘                  | ``                         |
-| show source control                  | cmd + 2                   | ``                         |
 | focus**left editor group**     | cmd + j                   | need remove other          |
 | focus**right****editor group** | cmd + k                   | ``                         |
 | column selection mode                | cmd + shift + l           | need remove**other** |
-| renamefile                           | f2                        | ``                         |
 | move line**up**                | opt + shift +**↑** | need remove other          |
 | move line down                       | **opt**+ shift + ↓ | need remove other          |
 | cursorTopSelect                      | cmd + shift +**↑** | need remove other          |
 | cursorBottomSelect                   | cmd + shift + ↓          | need remove other          |
 | go to line/column                    | cmd + l                   | ``                         |
 | add selection to next find match     | carl + g                  | ``                         |
+| openEditorAtIndex1/2/3     | cmd + 1/2/3                  | ``                         |
 
 ### view
 
-| show explorer                 | cmd + 1         |
+| show explorer                 | f1         |
 | ----------------------------- | --------------- |
-| show source control           | cmd + 2         |
-| show extensions               | cmd + 3         |
+| show source control           | f2         |
+| show extensions               | f3         |
 | toggle word wrap              | ctrl + z        |
 | split editor into right group | cmd + shift + 2 |
 
